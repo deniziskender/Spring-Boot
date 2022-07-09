@@ -1,3 +1,13 @@
+Uses
+
+- Java 11
+- Spring Boot
+- Jpa
+- Hibernate
+- Rest
+- Docker
+- Maven 
+
 TODO LIST
 
 Postresql/mongoDb
@@ -5,8 +15,6 @@ Postresql/mongoDb
 Asbtract Entity
 
 Error Messages
-
-Docker
 
 Unit tests/Integration tests
 
