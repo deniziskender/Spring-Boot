@@ -16,7 +16,7 @@
     <properties>
         <java.version>11</java.version>
         <org.mapstruct.version>1.5.2.Final</org.mapstruct.version>
-        <org.projectlombok.version>1.18.16</org.projectlombok.version>
+        <org.projectlombok.version>1.18.20</org.projectlombok.version>
     </properties>
     <dependencies>
         <dependency>
@@ -68,6 +68,8 @@
     </dependencies>
 
     <build>
+        <finalName>library-api</finalName>
+
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -91,6 +93,10 @@
                         </path>
                     </annotationProcessorPaths>
                 </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
     </build>

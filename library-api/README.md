@@ -1,10 +1,10 @@
 TODO LIST
 
+Postresql/mongoDb
+
 Asbtract Entity
 
 Error Messages
-
-Postresql/mongoDb
 
 Docker
 
@@ -16,7 +16,7 @@ Redis Kafka
 
 Swagger
 
-Microservice
+Microservice / Eureka / Spring cloud
 
 Lock
 
