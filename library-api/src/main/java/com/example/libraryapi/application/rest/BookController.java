@@ -3,10 +3,13 @@ package com.example.libraryapi.application.rest;
 import com.example.libraryapi.application.request.CreateBookRequest;
 import com.example.libraryapi.application.request.UpdateBookRequest;
 import com.example.libraryapi.application.response.BookResponse;
+import com.example.libraryapi.application.response.BooksPageResponse;
 import com.example.libraryapi.application.response.BooksResponse;
 import com.example.libraryapi.domain.data.BookDto;
+import com.example.libraryapi.domain.data.BooksDto;
 import com.example.libraryapi.domain.ports.api.BookServicePort;
 import lombok.RequiredArgsConstructor;
+import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
@@ -38,10 +41,17 @@ public class BookController {
         return BookResponse.builder().book(bookDto).build();
     }
 
+    @Deprecated
     @GetMapping("/get")
     public BooksResponse getAllBooks() {
         List<BookDto> books = bookServicePort.getBooks();
         return BooksResponse.builder().books(books).build();
+    }
+
+    @GetMapping("/get/slice")
+    public BooksPageResponse getAllBooks(Pageable pageable) {
+        BooksDto booksDto = bookServicePort.getBooks(pageable);
+        return BooksPageResponse.builder().booksDto(booksDto).build();
     }
 
     @DeleteMapping("/delete/{id}")
