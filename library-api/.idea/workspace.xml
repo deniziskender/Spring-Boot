@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f828e7a-19f9-4ada-97ef-3e3e0792a272" name="Changes" comment="Books retrieved page by page.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/libraryapi/infrastructure/configuration/LocalizationConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/messages.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/messages_tr.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="1f828e7a-19f9-4ada-97ef-3e3e0792a272" name="Changes" comment="Validation and adapter messages read from files.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/libraryapi/application/request/CreateBookRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/libraryapi/application/request/CreateBookRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/libraryapi/application/request/UpdateBookRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/libraryapi/application/request/UpdateBookRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/libraryapi/infrastructure/adapters/BookJpaAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/libraryapi/infrastructure/adapters/BookJpaAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/libraryapi/infrastructure/exception/BookApiBusinessException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/libraryapi/infrastructure/exception/BookApiBusinessException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/messages.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/messages_tr.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/messages_tr.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +144,7 @@
       <workItem from="1657369821627" duration="725000" />
       <workItem from="1657390635100" duration="4945000" />
       <workItem from="1657405242600" duration="806000" />
-      <workItem from="1657406066920" duration="8718000" />
+      <workItem from="1657406066920" duration="8882000" />
     </task>
     <task id="LOCAL-00001" summary="Library api v1">
       <created>1657279086125</created>
@@ -179,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657406878044</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Validation and adapter messages read from files.">
+      <created>1657464990180</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1657464990180</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,7 +203,8 @@
     <MESSAGE value="Library api v1 dockerization" />
     <MESSAGE value="Readme updated with containerization." />
     <MESSAGE value="Books retrieved page by page." />
-    <option name="LAST_COMMIT_MESSAGE" value="Books retrieved page by page." />
+    <MESSAGE value="Validation and adapter messages read from files." />
+    <option name="LAST_COMMIT_MESSAGE" value="Validation and adapter messages read from files." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -13,7 +13,7 @@ import javax.validation.constraints.NotNull;
 @AllArgsConstructor
 public class UpdateBookRequest {
 
-    @NotNull
+    @NotNull(message = "request.validation.book.id.null")
     private Long id;
 
     @NotBlank(message = "request.validation.book.title.blank")
