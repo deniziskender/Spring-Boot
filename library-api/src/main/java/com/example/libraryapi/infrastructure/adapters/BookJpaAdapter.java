@@ -38,7 +38,7 @@ public class BookJpaAdapter implements BookPersistencePort {
     @Override
     public void deleteBookById(Long id) {
         Book book = bookRepository.findByIdAndStatus(id, Status.ACTIVE)
-                .orElseThrow(BookApiBusinessException::new);
+                .orElseThrow(() -> new BookApiBusinessException("adapter.validation.book.not.found"));
 
         book.setStatus(Status.PASSIVE);
         bookRepository.save(book);
@@ -47,7 +47,7 @@ public class BookJpaAdapter implements BookPersistencePort {
     @Override
     public BookDto updateBook(UpdateBookVo updateBookVo) {
         Book book = bookRepository.findByIdAndStatus(updateBookVo.getId(), Status.ACTIVE)
-                .orElseThrow(BookApiBusinessException::new);
+                .orElseThrow(() -> new BookApiBusinessException("adapter.validation.book.not.found"));
 
         book.setTitle(updateBookVo.getTitle());
         book.setPrice(updateBookVo.getPrice());
@@ -79,7 +79,7 @@ public class BookJpaAdapter implements BookPersistencePort {
     @Override
     public BookDto getBookById(Long bookId) {
         Book book = bookRepository.findByIdAndStatus(bookId, Status.ACTIVE)
-                .orElseThrow(BookApiBusinessException::new);
+                .orElseThrow(() -> new BookApiBusinessException("adapter.validation.book.not.found"));
         return BookMapper.INSTANCE.bookToBookDto(book);
     }
 }

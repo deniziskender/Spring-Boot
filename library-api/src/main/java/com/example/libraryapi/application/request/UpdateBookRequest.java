@@ -16,13 +16,13 @@ public class UpdateBookRequest {
     @NotNull
     private Long id;
 
-    @NotBlank
+    @NotBlank(message = "request.validation.book.title.blank")
     private String title;
 
-    @NotBlank
+    @NotBlank(message = "request.validation.book.description.blank")
     private String description;
 
-    @NotNull
+    @NotNull(message = "request.validation.book.price.null")
     private Double price;
 
 

@@ -4,15 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f828e7a-19f9-4ada-97ef-3e3e0792a272" name="Changes" comment="Readme updated with containerization.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/libraryapi/application/response/BooksPageResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/libraryapi/domain/data/BooksDto.java" afterDir="false" />
+    <list default="true" id="1f828e7a-19f9-4ada-97ef-3e3e0792a272" name="Changes" comment="Books retrieved page by page.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/libraryapi/infrastructure/configuration/LocalizationConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/messages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/messages_tr.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/libraryapi/application/rest/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/libraryapi/application/rest/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/libraryapi/domain/ports/api/BookServicePort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/libraryapi/domain/ports/api/BookServicePort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/libraryapi/domain/ports/spi/BookPersistencePort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/libraryapi/domain/ports/spi/BookPersistencePort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/libraryapi/domain/service/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/libraryapi/domain/service/BookServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/libraryapi/application/request/CreateBookRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/libraryapi/application/request/CreateBookRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/libraryapi/application/request/UpdateBookRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/libraryapi/application/request/UpdateBookRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/libraryapi/infrastructure/adapters/BookJpaAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/libraryapi/infrastructure/adapters/BookJpaAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/libraryapi/infrastructure/exception/BookApiBusinessException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/libraryapi/infrastructure/exception/BookApiBusinessException.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,43 +50,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/deniziskender/Downloads/Personal Projects/library-api&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;fcbaff6e50e3b30e2bb48944c0752142&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/deniziskender/Downloads/Spring-Boot/library-api/src/main/resources",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "File.Encoding",
+    "spring.configuration.checksum": "fcbaff6e50e3b30e2bb48944c0752142"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main/java/com/example/libraryapi/infrastructure/util" />
       <recent name="$PROJECT_DIR$/src/main/java/com/example/userapi/infrastructure" />
       <recent name="$PROJECT_DIR$/src/main/java/com/example/userapi/domain" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/java/com/example/userapi/domain" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.example.userapi" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.libraryapi.infrastructure.configuration" />
       <recent name="com.example.libraryapi.infrastructure.mappers" />
       <recent name="com.example.libraryapi.application.response" />
-      <recent name="com.example.libraryapi.infrastructure.configuration" />
       <recent name="com.example.libraryapi.domain.data" />
       <recent name="com.example.libraryapi.infrastructure.util" />
     </key>
@@ -147,7 +149,7 @@
       <workItem from="1657369821627" duration="725000" />
       <workItem from="1657390635100" duration="4945000" />
       <workItem from="1657405242600" duration="806000" />
-      <workItem from="1657406066920" duration="675000" />
+      <workItem from="1657406066920" duration="8718000" />
     </task>
     <task id="LOCAL-00001" summary="Library api v1">
       <created>1657279086125</created>
@@ -170,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657395513422</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Books retrieved page by page.">
+      <created>1657406878044</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1657406878044</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,7 +200,8 @@
     <MESSAGE value="Library api v1" />
     <MESSAGE value="Library api v1 dockerization" />
     <MESSAGE value="Readme updated with containerization." />
-    <option name="LAST_COMMIT_MESSAGE" value="Readme updated with containerization." />
+    <MESSAGE value="Books retrieved page by page." />
+    <option name="LAST_COMMIT_MESSAGE" value="Books retrieved page by page." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

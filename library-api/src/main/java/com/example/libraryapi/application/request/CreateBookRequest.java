@@ -13,21 +13,17 @@ import javax.validation.constraints.NotNull;
 @AllArgsConstructor
 public class CreateBookRequest {
 
-    @NotBlank
+    @NotBlank(message = "request.validation.book.title.blank")
     private String title;
 
-    @NotBlank
+    @NotBlank(message = "request.validation.book.description.blank")
     private String description;
 
-    @NotNull
+    @NotNull(message = "request.validation.book.price.null")
     private Double price;
 
 
     public CreateBookVo toModel() {
-        return CreateBookVo.builder()
-                .title(this.title)
-                .description(this.description)
-                .price(this.price)
-                .build();
+        return CreateBookVo.builder().title(this.title).description(this.description).price(this.price).build();
     }
 }

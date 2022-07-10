@@ -5,7 +5,7 @@ import lombok.Getter;
 @Getter
 public class BookApiBusinessException extends RuntimeException {
 
-    public BookApiBusinessException() {
-        super();
+    public BookApiBusinessException(String message) {
+        super(message);
     }
 }
