@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f828e7a-19f9-4ada-97ef-3e3e0792a272" name="Changes" comment="Validation and adapter messages read from files.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/libraryapi/application/rest/BookControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/libraryapi/base/BaseIT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/libraryapi/base/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/libraryapi/domain/service/BookServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/schema.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/libraryapi/application/request/UpdateBookRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/libraryapi/application/request/UpdateBookRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/messages.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/messages_tr.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/messages_tr.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data.sql" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +27,7 @@
       <list>
         <option value="Enum" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -55,7 +60,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/deniziskender/Downloads/Spring-Boot/library-api/src/main/resources",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "/Users/deniziskender/Downloads/Spring-Boot/library-api/src/test/resources",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -66,25 +73,34 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+      <recent name="$PROJECT_DIR$/src/test" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main/java/com/example/libraryapi/infrastructure/util" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/example/userapi/infrastructure" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/example/userapi/domain" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+      <recent name="$PROJECT_DIR$/src/test/resources/sql" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/java/com/example/userapi/domain" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.example.userapi" />
     </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.example.libraryapi.application.rest" />
+      <recent name="com.example.libraryapi.domain.service" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.libraryapi.base" />
       <recent name="com.example.libraryapi.infrastructure.configuration" />
       <recent name="com.example.libraryapi.infrastructure.mappers" />
       <recent name="com.example.libraryapi.application.response" />
       <recent name="com.example.libraryapi.domain.data" />
-      <recent name="com.example.libraryapi.infrastructure.util" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -94,7 +110,78 @@
       </set>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.All in library-api">
+    <configuration name="All in library-api" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="library-api" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="library-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.libraryapi.application.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.libraryapi.application.rest" />
+      <option name="MAIN_CLASS_NAME" value="com.example.libraryapi.application.rest.BookControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookControllerTest.should_add_book" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="library-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.libraryapi.application.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.libraryapi.application.rest" />
+      <option name="MAIN_CLASS_NAME" value="com.example.libraryapi.application.rest.BookControllerTest" />
+      <option name="METHOD_NAME" value="should_add_book" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookControllerTest.should_get_all_books" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="library-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.libraryapi.application.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.libraryapi.application.rest" />
+      <option name="MAIN_CLASS_NAME" value="com.example.libraryapi.application.rest.BookControllerTest" />
+      <option name="METHOD_NAME" value="should_get_all_books" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookServiceImplTest.should_add_book" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="library-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.libraryapi.domain.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.libraryapi.domain.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.libraryapi.domain.service.BookServiceImplTest" />
+      <option name="METHOD_NAME" value="should_add_book" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -106,22 +193,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LibraryApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="library-api" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.libraryapi.LibraryApiApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.libraryapi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.LibraryApiApplication" />
+        <item itemvalue="JUnit.All in library-api" />
+        <item itemvalue="JUnit.BookControllerTest.should_get_all_books" />
+        <item itemvalue="JUnit.BookControllerTest" />
+        <item itemvalue="JUnit.BookControllerTest.should_add_book" />
+        <item itemvalue="JUnit.BookServiceImplTest.should_add_book" />
       </list>
     </recent_temporary>
   </component>
@@ -144,7 +222,7 @@
       <workItem from="1657369821627" duration="725000" />
       <workItem from="1657390635100" duration="4945000" />
       <workItem from="1657405242600" duration="806000" />
-      <workItem from="1657406066920" duration="8882000" />
+      <workItem from="1657406066920" duration="21491000" />
     </task>
     <task id="LOCAL-00001" summary="Library api v1">
       <created>1657279086125</created>
@@ -181,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657464990180</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Validation and adapter messages read from files.">
+      <created>1657465068547</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1657465068547</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
