@@ -9,15 +9,14 @@ Tested with
 - Lombok
 - Rest
 - Maven
+- Junit
+- Mockito
 - Intellij Idea for IDE
 
 TODO LIST
-
-- Postresql/mongoDb
-- Asbtract Entity
-- Unit tests/Integration tests
-- Strategy Desing Pattern
-- Redis Kafka
+- More IT and unit tests will be added.
+- Postresql/mongoDb will be integrated. 
+- Abstract Entity class will be used.
 - Swagger
 - Microservice / Eureka / Spring cloud
-- Lock
+- Redis/Kafka
