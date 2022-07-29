@@ -7,6 +7,7 @@ Tested with
 - Jpa
 - Hibernate
 - Lombok
+- Mapstruct
 - Rest
 - Maven
 - Junit
