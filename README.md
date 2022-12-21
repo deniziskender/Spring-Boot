@@ -1,4 +1,4 @@
-Tested with
+Implemented with with
 
 - Java 11
 - Spring Boot 2.6.9
@@ -21,3 +21,5 @@ TODO LIST
 - Swagger
 - Microservice / Eureka / Spring cloud
 - Redis/Kafka
+- WireMock for api calls
+- Liquibase
