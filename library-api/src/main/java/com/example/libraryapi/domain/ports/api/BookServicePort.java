@@ -2,6 +2,9 @@ package com.example.libraryapi.domain.ports.api;
 
 import com.example.libraryapi.application.request.CreateBookRequest;
 import com.example.libraryapi.application.request.UpdateBookRequest;
+import com.example.libraryapi.application.response.BookResponse;
+import com.example.libraryapi.application.response.BooksPageResponse;
+import com.example.libraryapi.application.response.BooksResponse;
 import com.example.libraryapi.domain.data.BookDto;
 import com.example.libraryapi.domain.data.BooksDto;
 import org.springframework.data.domain.Pageable;
@@ -10,15 +13,15 @@ import java.util.List;
 
 public interface BookServicePort {
 
-    BookDto addBook(CreateBookRequest createBookRequest);
+    BookResponse addBook(CreateBookRequest createBookRequest);
 
     void deleteBookById(Long id);
 
-    BookDto updateBook(UpdateBookRequest updateBookRequest);
+    BookResponse updateBook(UpdateBookRequest updateBookRequest);
 
-    List<BookDto> getBooks();
+    BooksResponse getBooks();
 
-    BooksDto getBooks(Pageable pageable);
+    BooksPageResponse getBooks(Pageable pageable);
 
-    BookDto getBookById(Long bookId);
+    BookResponse getBookById(Long bookId);
 }

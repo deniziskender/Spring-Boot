@@ -25,10 +25,10 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -82,6 +82,9 @@
       <option name="presentableId" value="Default" />
       <updated>1675096930372</updated>
       <workItem from="1675096941975" duration="326000" />
+      <workItem from="1675107024366" duration="1587000" />
+      <workItem from="1675108668282" duration="847000" />
+      <workItem from="1675109538852" duration="579000" />
     </task>
     <servers />
   </component>

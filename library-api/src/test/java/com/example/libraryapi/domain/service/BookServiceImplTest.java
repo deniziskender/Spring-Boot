@@ -1,6 +1,7 @@
 package com.example.libraryapi.domain.service;
 
 import com.example.libraryapi.application.request.CreateBookRequest;
+import com.example.libraryapi.application.response.BookResponse;
 import com.example.libraryapi.base.BaseTest;
 import com.example.libraryapi.domain.data.BookDto;
 import com.example.libraryapi.domain.data.CreateBookVo;
@@ -11,7 +12,8 @@ import org.mockito.InOrder;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 
-import static org.assertj.core.api.Assertions.assertThat;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.inOrder;
 import static org.mockito.Mockito.when;
@@ -33,12 +35,13 @@ class BookServiceImplTest extends BaseTest {
         CreateBookRequest createBookRequest = CreateBookRequest.builder().title("title").price(2.1).description("description").build();
 
         // when
-        BookDto response = bookService.addBook(createBookRequest);
+        BookResponse response = bookService.addBook(createBookRequest);
 
         // then
-        assertThat(response.getTitle()).isEqualTo(bookDto.getTitle());
-        assertThat(response.getPrice()).isEqualTo(bookDto.getPrice());
-        assertThat(response.getDescription()).isEqualTo(bookDto.getDescription());
+        assertNotNull(response.getBook());
+        assertEquals(bookDto.getTitle(), response.getBook().getTitle());
+        assertEquals(bookDto.getPrice(), response.getBook().getPrice());
+        assertEquals(bookDto.getDescription(), response.getBook().getDescription());
 
         ArgumentCaptor<CreateBookVo> argumentCaptor = ArgumentCaptor.forClass(CreateBookVo.class);
 
@@ -47,8 +50,8 @@ class BookServiceImplTest extends BaseTest {
         inOrder.verifyNoMoreInteractions();
 
         CreateBookVo captorValue = argumentCaptor.getValue();
-        assertThat(captorValue.getTitle()).isEqualTo("title");
-        assertThat(captorValue.getDescription()).isEqualTo("description");
-        assertThat(captorValue.getPrice()).isEqualTo(2.1);
+        assertEquals("title", captorValue.getTitle());
+        assertEquals("description", captorValue.getDescription());
+        assertEquals(2.1, captorValue.getPrice());
     }
 }

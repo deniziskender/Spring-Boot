@@ -2,6 +2,9 @@ package com.example.libraryapi.domain.service;
 
 import com.example.libraryapi.application.request.CreateBookRequest;
 import com.example.libraryapi.application.request.UpdateBookRequest;
+import com.example.libraryapi.application.response.BookResponse;
+import com.example.libraryapi.application.response.BooksPageResponse;
+import com.example.libraryapi.application.response.BooksResponse;
 import com.example.libraryapi.domain.data.BookDto;
 import com.example.libraryapi.domain.data.BooksDto;
 import com.example.libraryapi.domain.ports.api.BookServicePort;
@@ -19,8 +22,9 @@ public class BookServiceImpl implements BookServicePort {
     private final BookPersistencePort bookPersistencePort;
 
     @Override
-    public BookDto addBook(CreateBookRequest createBookRequest) {
-        return bookPersistencePort.addBook(createBookRequest.toModel());
+    public BookResponse addBook(CreateBookRequest createBookRequest) {
+        BookDto bookDto = bookPersistencePort.addBook(createBookRequest.toModel());
+        return BookResponse.builder().book(bookDto).build();
     }
 
     @Override
@@ -29,23 +33,27 @@ public class BookServiceImpl implements BookServicePort {
     }
 
     @Override
-    public BookDto updateBook(UpdateBookRequest updateBookRequest) {
-        return bookPersistencePort.updateBook(updateBookRequest.toModel());
+    public BookResponse updateBook(UpdateBookRequest updateBookRequest) {
+        BookDto bookDto = bookPersistencePort.updateBook(updateBookRequest.toModel());
+        return BookResponse.builder().book(bookDto).build();
     }
 
     @Deprecated
     @Override
-    public List<BookDto> getBooks() {
-        return bookPersistencePort.getBooks();
+    public BooksResponse getBooks() {
+        List<BookDto> books = bookPersistencePort.getBooks();
+        return BooksResponse.builder().books(books).build();
     }
 
     @Override
-    public BooksDto getBooks(Pageable pageable) {
-        return bookPersistencePort.getBooks(pageable);
+    public BooksPageResponse getBooks(Pageable pageable) {
+        BooksDto booksDto = bookPersistencePort.getBooks(pageable);
+        return BooksPageResponse.builder().booksDto(booksDto).build();
     }
 
     @Override
-    public BookDto getBookById(Long bookId) {
-        return bookPersistencePort.getBookById(bookId);
+    public BookResponse getBookById(Long bookId) {
+        BookDto bookDto = bookPersistencePort.getBookById(bookId);
+        return BookResponse.builder().book(bookDto).build();
     }
 }

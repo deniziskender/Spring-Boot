@@ -25,33 +25,28 @@ public class BookController {
 
     @PostMapping("/add")
     public BookResponse addBook(@RequestBody @Valid CreateBookRequest createBookRequest) {
-        BookDto bookDto = bookServicePort.addBook(createBookRequest);
-        return BookResponse.builder().book(bookDto).build();
+        return bookServicePort.addBook(createBookRequest);
     }
 
     @PutMapping("/update")
     public BookResponse updateBook(@RequestBody @Valid UpdateBookRequest updateBookRequest) {
-        BookDto bookDto = bookServicePort.updateBook(updateBookRequest);
-        return BookResponse.builder().book(bookDto).build();
+        return bookServicePort.updateBook(updateBookRequest);
     }
 
     @GetMapping("/get/{id}")
     public BookResponse getBookByID(@PathVariable long id) {
-        BookDto bookDto = bookServicePort.getBookById(id);
-        return BookResponse.builder().book(bookDto).build();
+        return bookServicePort.getBookById(id);
     }
 
     @Deprecated
     @GetMapping("/get")
     public BooksResponse getAllBooks() {
-        List<BookDto> books = bookServicePort.getBooks();
-        return BooksResponse.builder().books(books).build();
+        return bookServicePort.getBooks();
     }
 
     @GetMapping("/get/slice")
     public BooksPageResponse getAllBooks(Pageable pageable) {
-        BooksDto booksDto = bookServicePort.getBooks(pageable);
-        return BooksPageResponse.builder().booksDto(booksDto).build();
+        return bookServicePort.getBooks(pageable);
     }
 
     @DeleteMapping("/delete/{id}")
