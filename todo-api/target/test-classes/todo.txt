@@ -1,0 +1,4 @@
+:wq!
+don't rely on the order @context +shopping
+one more thingy: @contexts and +projects can be everywhere
+xylophone +shopping +hobby

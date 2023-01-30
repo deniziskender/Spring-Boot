@@ -1,0 +1,17 @@
+C:\Users\diskende\Documents\GitHub\Spring-Boot\todo-api\src\main\java\com\example\todoapi\domain\data\TodoDto.java
+C:\Users\diskende\Documents\GitHub\Spring-Boot\todo-api\src\main\java\com\example\todoapi\infrastructure\entity\Todo.java
+C:\Users\diskende\Documents\GitHub\Spring-Boot\todo-api\src\main\java\com\example\todoapi\domain\ports\spi\TodoPersistencePort.java
+C:\Users\diskende\Documents\GitHub\Spring-Boot\todo-api\src\main\java\com\example\todoapi\TodoApiApplication.java
+C:\Users\diskende\Documents\GitHub\Spring-Boot\todo-api\src\main\java\com\example\todoapi\domain\ports\api\TodoServicePort.java
+C:\Users\diskende\Documents\GitHub\Spring-Boot\todo-api\src\main\java\com\example\todoapi\application\rest\TodoController.java
+C:\Users\diskende\Documents\GitHub\Spring-Boot\todo-api\src\main\java\com\example\todoapi\domain\data\TodosDto.java
+C:\Users\diskende\Documents\GitHub\Spring-Boot\todo-api\src\main\java\com\example\todoapi\infrastructure\adapters\TodoJpaAdapter.java
+C:\Users\diskende\Documents\GitHub\Spring-Boot\todo-api\src\main\java\com\example\todoapi\application\response\TodosResponse.java
+C:\Users\diskende\Documents\GitHub\Spring-Boot\todo-api\src\main\java\com\example\todoapi\infrastructure\configuration\LocalizationConfiguration.java
+C:\Users\diskende\Documents\GitHub\Spring-Boot\todo-api\src\main\java\com\example\todoapi\infrastructure\repository\TodoRepository.java
+C:\Users\diskende\Documents\GitHub\Spring-Boot\todo-api\src\main\java\com\example\todoapi\application\response\TodoResponse.java
+C:\Users\diskende\Documents\GitHub\Spring-Boot\todo-api\src\main\java\com\example\todoapi\domain\service\TodoServiceImpl.java
+C:\Users\diskende\Documents\GitHub\Spring-Boot\todo-api\src\main\java\com\example\todoapi\application\response\TodosPageResponse.java
+C:\Users\diskende\Documents\GitHub\Spring-Boot\todo-api\src\main\java\com\example\todoapi\infrastructure\exception\TodoApiBusinessException.java
+C:\Users\diskende\Documents\GitHub\Spring-Boot\todo-api\src\main\java\com\example\todoapi\infrastructure\repository\FileRepositoryReader.java
+C:\Users\diskende\Documents\GitHub\Spring-Boot\todo-api\src\main\java\com\example\todoapi\infrastructure\mappers\TodoMapper.java

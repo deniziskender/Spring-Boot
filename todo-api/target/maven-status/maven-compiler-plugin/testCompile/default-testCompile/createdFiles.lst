@@ -1,0 +1,5 @@
+com\example\todoapi\base\BaseTest.class
+com\example\todoapi\application\rest\TodoControllerTest.class
+com\example\todoapi\base\BaseIT.class
+com\example\todoapi\domain\service\TodoServiceImplTest.class
+com\example\todoapi\TodoApiApplicationTests.class
