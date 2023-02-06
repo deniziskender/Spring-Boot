@@ -19,7 +19,7 @@ class BookControllerTest extends BaseIT {
         CreateBookRequest createBookRequest = CreateBookRequest.builder().description("description").title("title").price(1.1).build();
 
         //when
-        ResponseEntity<BookResponse> response = testRestTemplate.postForEntity("/book/add", createBookRequest, BookResponse.class);
+        ResponseEntity<BookResponse> response = testRestTemplate.postForEntity("/v1/books/add", createBookRequest, BookResponse.class);
 
         //then
         assertThat(response.getStatusCode()).isEqualTo(HttpStatus.OK);
@@ -38,7 +38,7 @@ class BookControllerTest extends BaseIT {
     @Test
     void should_get_all_books() {
         //when
-        ResponseEntity<BooksResponse> response = testRestTemplate.getForEntity("/book/get", BooksResponse.class);
+        ResponseEntity<BooksResponse> response = testRestTemplate.getForEntity("/v1/books/", BooksResponse.class);
 
         //then
         assertThat(response.getStatusCode()).isEqualTo(HttpStatus.OK);

@@ -18,38 +18,37 @@ import java.util.List;
 
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("/book")
 public class BookController {
 
     private final BookServicePort bookServicePort;
 
-    @PostMapping("/add")
+    @PostMapping("/v1/books/add")
     public BookResponse addBook(@RequestBody @Valid CreateBookRequest createBookRequest) {
         return bookServicePort.addBook(createBookRequest);
     }
 
-    @PutMapping("/update")
+    @PutMapping("/v1/books/update")
     public BookResponse updateBook(@RequestBody @Valid UpdateBookRequest updateBookRequest) {
         return bookServicePort.updateBook(updateBookRequest);
     }
 
-    @GetMapping("/get/{id}")
+    @GetMapping("/v1/books/{id}")
     public BookResponse getBookByID(@PathVariable long id) {
         return bookServicePort.getBookById(id);
     }
 
     @Deprecated
-    @GetMapping("/get")
+    @GetMapping("/v1/books")
     public BooksResponse getAllBooks() {
         return bookServicePort.getBooks();
     }
 
-    @GetMapping("/get/slice")
+    @GetMapping("/v1/books/slice")
     public BooksPageResponse getAllBooks(Pageable pageable) {
         return bookServicePort.getBooks(pageable);
     }
 
-    @DeleteMapping("/delete/{id}")
+    @DeleteMapping("/v1/books/delete/{id}")
     @ResponseStatus(code = HttpStatus.OK)
     public void deleteBookByID(@PathVariable long id) {
         bookServicePort.deleteBookById(id);
