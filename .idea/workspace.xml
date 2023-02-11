@@ -2,25 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b1093d8-45ce-40a5-b2db-fa592f0ea657" name="Default Changelist" comment="Updated some URIs and test cases.">
-      <change afterPath="$PROJECT_DIR$/library-api/src/test/resources/data_init_not_used.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-api/src/test/resources/sql/delete_books.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-api/src/test/resources/sql/insert_books.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/HELP.md" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/HELP.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/application/rest/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/application/rest/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/domain/data/BooksDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/domain/data/BooksDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/infrastructure/adapters/BookJpaAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/infrastructure/adapters/BookJpaAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/infrastructure/repository/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/infrastructure/repository/BookRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/src/test/java/com/example/libraryapi/application/rest/BookControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/src/test/java/com/example/libraryapi/application/rest/BookControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/src/test/resources/data.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/target/classes/com/example/libraryapi/application/rest/BookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/target/classes/com/example/libraryapi/application/rest/BookController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/target/classes/com/example/libraryapi/domain/data/BooksDto$BooksDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/target/classes/com/example/libraryapi/domain/data/BooksDto$BooksDtoBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/target/classes/com/example/libraryapi/domain/data/BooksDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/target/classes/com/example/libraryapi/domain/data/BooksDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/target/classes/com/example/libraryapi/infrastructure/adapters/BookJpaAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/target/classes/com/example/libraryapi/infrastructure/adapters/BookJpaAdapter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/target/classes/com/example/libraryapi/infrastructure/repository/BookRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/target/classes/com/example/libraryapi/infrastructure/repository/BookRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/target/test-classes/com/example/libraryapi/application/rest/BookControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/target/test-classes/com/example/libraryapi/application/rest/BookControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/target/test-classes/data.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo-api/HELP.md" beforeDir="false" afterPath="$PROJECT_DIR$/todo-api/HELP.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-api/src/main/java/com/example/todoapi/infrastructure/adapters/TodoJpaAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/todo-api/src/main/java/com/example/todoapi/infrastructure/adapters/TodoJpaAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-api/src/main/java/com/example/todoapi/infrastructure/repository/FileRepositoryReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/todo-api/src/main/java/com/example/todoapi/infrastructure/repository/FileRepositoryReader.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +54,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BookControllerTest">
+  <component name="RunManager" selected="JUnit.All in library-api">
+    <configuration name="All in library-api" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="library-api" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in todo-api" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="todo-api" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BookControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="library-api" />
       <extension name="coverage">
@@ -96,38 +97,6 @@
       <option name="PACKAGE_NAME" value="com.example.libraryapi.application.rest" />
       <option name="MAIN_CLASS_NAME" value="com.example.libraryapi.application.rest.BookControllerTest" />
       <option name="METHOD_NAME" value="should_get_book" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BookControllerTest.should_get_books_by_slicing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="library-api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.libraryapi.application.rest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.libraryapi.application.rest" />
-      <option name="MAIN_CLASS_NAME" value="com.example.libraryapi.application.rest.BookControllerTest" />
-      <option name="METHOD_NAME" value="should_get_books_by_slicing" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BookControllerTest.should_get_books_by_slicing_when_page_is_0_and_size_is_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="library-api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.libraryapi.application.rest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.libraryapi.application.rest" />
-      <option name="MAIN_CLASS_NAME" value="com.example.libraryapi.application.rest.BookControllerTest" />
-      <option name="METHOD_NAME" value="should_get_books_by_slicing_when_page_is_0_and_size_is_1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -165,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in library-api" />
+        <item itemvalue="JUnit.All in todo-api" />
         <item itemvalue="JUnit.BookControllerTest" />
         <item itemvalue="JUnit.BookControllerTest.should_get_book" />
         <item itemvalue="JUnit.BookControllerTest.should_get_books_by_slicing_when_page_is_0_and_size_is_3" />
-        <item itemvalue="JUnit.BookControllerTest.should_get_books_by_slicing_when_page_is_0_and_size_is_1" />
-        <item itemvalue="JUnit.BookControllerTest.should_get_books_by_slicing" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +159,7 @@
       <workItem from="1675270397029" duration="1664000" />
       <workItem from="1675690480434" duration="1291000" />
       <workItem from="1676067432420" duration="7280000" />
-      <workItem from="1676074795678" duration="9218000" />
+      <workItem from="1676074795678" duration="9455000" />
     </task>
     <task id="LOCAL-00001" summary="Updated some URIs and test cases.">
       <created>1675691069535</created>
@@ -241,7 +210,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/application/rest/BookController.java</url>
-          <line>16</line>
+          <line>15</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

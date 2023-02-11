@@ -24,7 +24,7 @@ public class FileRepositoryReader {
     @Value("classpath:todo.txt")
     private Resource resource;
 
-    public ArrayList<String> getTodoMap(String projectFilter) {
+    public List<String> getTodoMap(String projectFilter) {
         ArrayList<String> todoList = new ArrayList<>();
         try {
             InputStream inputStream = resource.getInputStream();

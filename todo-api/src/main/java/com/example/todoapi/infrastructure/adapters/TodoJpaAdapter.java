@@ -46,7 +46,7 @@ public class TodoJpaAdapter implements TodoPersistencePort {
     }
 
     private Map<Long, Todo> generateTodoMap(String projectFilter) {
-        ArrayList<String> todoList = fileRepositoryReader.getTodoMap(projectFilter);
+        List<String> todoList = fileRepositoryReader.getTodoMap(projectFilter);
         Long counter = 0L;
         Map<Long, Todo> todoMap = new HashMap<>();
         for (String todo : todoList) {
