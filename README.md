@@ -4,15 +4,15 @@ Implemented with with
 - Spring Boot 2.6.9
 - Docker 20.10.17
 - DDD (Hexagonal architecture)
+- Rest
 - Jpa
 - Hibernate
 - Lombok
 - Mapstruct
-- Rest
+- Testing: Junit, Mockito
 - Maven
-- Junit
-- Mockito
 - Intellij Idea for IDE
+- SonarLint plugin
 
 TODO LIST
 - More IT and unit tests will be added.
