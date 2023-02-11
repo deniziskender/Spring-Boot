@@ -108,7 +108,6 @@ class BookControllerTest extends BaseIT {
     @Test
     void should_update_book() {
         // given
-        long id = 1;
         UpdateBookRequest updateBookRequest = UpdateBookRequest.builder()
                 .title("title2")
                 .description("description2")
@@ -119,7 +118,7 @@ class BookControllerTest extends BaseIT {
 
         // when
         ResponseEntity<BookResponse> response = testRestTemplate.
-                exchange("/v1/books/update/" + id, HttpMethod.PUT, requestEntity, BookResponse.class);
+                exchange("/v1/books/update/1", HttpMethod.PUT, requestEntity, BookResponse.class);
 
         // then
         assertThat(response.getStatusCode()).isEqualTo(HttpStatus.OK);
@@ -130,7 +129,7 @@ class BookControllerTest extends BaseIT {
 
         BookDto book = bookResponse.getBook();
 
-        assertThat(book.getId()).isEqualTo(id);
+        assertThat(book.getId()).isEqualTo(1);
         assertThat(book.getTitle()).isEqualTo("title2");
         assertThat(book.getDescription()).isEqualTo("description2");
         assertThat(book.getPrice()).isEqualTo(20.2);

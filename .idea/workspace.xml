@@ -3,46 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="8b1093d8-45ce-40a5-b2db-fa592f0ea657" name="Default Changelist" comment="Updated some URIs and test cases.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/application/request/CreateBookRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/application/request/CreateBookRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/application/request/UpdateBookRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/application/request/UpdateBookRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/application/response/BooksPageResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/application/response/BooksPageResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/application/rest/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/application/rest/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/domain/data/BookDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/domain/data/BookDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/domain/data/BooksDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/domain/data/BooksDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/domain/data/UpdateBookVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/domain/data/UpdateBookVo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/domain/ports/api/BookServicePort.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/domain/ports/api/BookServicePort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/domain/ports/spi/BookPersistencePort.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/domain/ports/spi/BookPersistencePort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/domain/service/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/domain/service/BookServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/infrastructure/adapters/BookJpaAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/infrastructure/adapters/BookJpaAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/infrastructure/enumtype/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/infrastructure/enumtype/Status.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/infrastructure/enumtype/converter/StatusConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/infrastructure/enumtype/converter/StatusConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/infrastructure/mappers/BookMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/infrastructure/mappers/BookMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/src/main/resources/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/src/main/resources/messages.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/library-api/src/test/java/com/example/libraryapi/application/rest/BookControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/src/test/java/com/example/libraryapi/application/rest/BookControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/src/test/java/com/example/libraryapi/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/src/test/java/com/example/libraryapi/base/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/target/classes/com/example/libraryapi/application/request/CreateBookRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/target/classes/com/example/libraryapi/application/request/CreateBookRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/target/classes/com/example/libraryapi/application/request/UpdateBookRequest$UpdateBookRequestBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/target/classes/com/example/libraryapi/application/request/UpdateBookRequest$UpdateBookRequestBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/target/classes/com/example/libraryapi/application/request/UpdateBookRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/target/classes/com/example/libraryapi/application/request/UpdateBookRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/target/classes/com/example/libraryapi/application/response/BooksPageResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/target/classes/com/example/libraryapi/application/response/BooksPageResponse.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/library-api/target/classes/com/example/libraryapi/application/rest/BookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/target/classes/com/example/libraryapi/application/rest/BookController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/target/classes/com/example/libraryapi/domain/data/BookDto$BookDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/target/classes/com/example/libraryapi/domain/data/BookDto$BookDtoBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/target/classes/com/example/libraryapi/domain/data/BookDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/target/classes/com/example/libraryapi/domain/data/BookDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/target/classes/com/example/libraryapi/domain/data/BooksDto$BooksDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/target/classes/com/example/libraryapi/domain/data/BooksDto$BooksDtoBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/target/classes/com/example/libraryapi/domain/data/BooksDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/target/classes/com/example/libraryapi/domain/data/BooksDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/target/classes/com/example/libraryapi/domain/data/UpdateBookVo$UpdateBookVoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/target/classes/com/example/libraryapi/domain/data/UpdateBookVo$UpdateBookVoBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/target/classes/com/example/libraryapi/domain/data/UpdateBookVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/target/classes/com/example/libraryapi/domain/data/UpdateBookVo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/target/classes/com/example/libraryapi/domain/ports/api/BookServicePort.class" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/target/classes/com/example/libraryapi/domain/ports/api/BookServicePort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/target/classes/com/example/libraryapi/domain/ports/spi/BookPersistencePort.class" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/target/classes/com/example/libraryapi/domain/ports/spi/BookPersistencePort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/target/classes/com/example/libraryapi/domain/service/BookServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/target/classes/com/example/libraryapi/domain/service/BookServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/target/classes/com/example/libraryapi/infrastructure/adapters/BookJpaAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/target/classes/com/example/libraryapi/infrastructure/adapters/BookJpaAdapter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/target/classes/com/example/libraryapi/infrastructure/enumtype/Status.class" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/target/classes/com/example/libraryapi/infrastructure/enumtype/Status.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/target/classes/com/example/libraryapi/infrastructure/enumtype/converter/StatusConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/target/classes/com/example/libraryapi/infrastructure/enumtype/converter/StatusConverter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/target/classes/com/example/libraryapi/infrastructure/mappers/BookMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/target/classes/com/example/libraryapi/infrastructure/mappers/BookMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/target/classes/com/example/libraryapi/infrastructure/mappers/BookMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/target/classes/com/example/libraryapi/infrastructure/mappers/BookMapperImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/target/classes/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/target/classes/messages.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/target/generated-sources/annotations/com/example/libraryapi/infrastructure/mappers/BookMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/target/generated-sources/annotations/com/example/libraryapi/infrastructure/mappers/BookMapperImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/library-api/target/test-classes/com/example/libraryapi/application/rest/BookControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/target/test-classes/com/example/libraryapi/application/rest/BookControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/target/test-classes/com/example/libraryapi/base/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/target/test-classes/com/example/libraryapi/base/BaseTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,6 +31,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -85,7 +49,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BookControllerTest.should_get_books_by_slicing">
+  <component name="RunManager" selected="JUnit.All in library-api">
     <configuration name="All in library-api" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="library-api" />
       <option name="PACKAGE_NAME" value="" />
@@ -110,22 +74,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookControllerTest.should_get_book" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="library-api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.libraryapi.application.rest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.libraryapi.application.rest" />
-      <option name="MAIN_CLASS_NAME" value="com.example.libraryapi.application.rest.BookControllerTest" />
-      <option name="METHOD_NAME" value="should_get_book" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="BookControllerTest.should_get_books_by_slicing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="library-api" />
       <extension name="coverage">
@@ -137,6 +85,22 @@
       <option name="PACKAGE_NAME" value="com.example.libraryapi.application.rest" />
       <option name="MAIN_CLASS_NAME" value="com.example.libraryapi.application.rest.BookControllerTest" />
       <option name="METHOD_NAME" value="should_get_books_by_slicing" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookControllerTest.should_update_book" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="library-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.libraryapi.application.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.libraryapi.application.rest" />
+      <option name="MAIN_CLASS_NAME" value="com.example.libraryapi.application.rest.BookControllerTest" />
+      <option name="METHOD_NAME" value="should_update_book" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -183,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in library-api" />
+        <item itemvalue="JUnit.BookControllerTest.should_update_book" />
         <item itemvalue="JUnit.BookControllerTest.should_get_books_by_slicing" />
         <item itemvalue="JUnit.BookControllerTest.should_delete_book" />
-        <item itemvalue="JUnit.All in library-api" />
         <item itemvalue="Maven.library-api [compile]" />
-        <item itemvalue="JUnit.BookControllerTest.should_get_book" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +172,7 @@
       <workItem from="1675270397029" duration="1664000" />
       <workItem from="1675690480434" duration="1291000" />
       <workItem from="1676067432420" duration="7280000" />
-      <workItem from="1676074795678" duration="3161000" />
+      <workItem from="1676074795678" duration="3525000" />
     </task>
     <task id="LOCAL-00001" summary="Updated some URIs and test cases.">
       <created>1675691069535</created>
@@ -217,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675691069536</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Updated some URIs and test cases.">
+      <created>1676078009033</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676078009033</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
