@@ -9,7 +9,7 @@ Implemented with with
 - Hibernate
 - Lombok
 - Mapstruct
-- Junit, Mockito
+- Testing: Junit, Mockito
 - Maven
 - Intellij Idea for IDE
 - SonarLint plugin
