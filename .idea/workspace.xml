@@ -2,16 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b1093d8-45ce-40a5-b2db-fa592f0ea657" name="Default Changelist" comment="Updated some URIs and test cases.">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_21_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reflections_reflections_0_9_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/infrastructure/configuration/SwaggerConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/application/rest/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/application/rest/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo-api/src/main/java/com/example/todoapi/infrastructure/adapters/TodoJpaAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/todo-api/src/main/java/com/example/todoapi/infrastructure/adapters/TodoJpaAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo-api/src/main/java/com/example/todoapi/infrastructure/repository/FileRepositoryReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/todo-api/src/main/java/com/example/todoapi/infrastructure/repository/FileRepositoryReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-api/library-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/library-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-api/target/generated-sources/annotations/com/example/libraryapi/infrastructure/mappers/BookMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/target/generated-sources/annotations/com/example/libraryapi/infrastructure/mappers/BookMapperImpl.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -25,20 +49,25 @@
   </component>
   <component name="ProjectId" id="2L3LTd7AXE7rOXzOUvptpMOzNj1" />
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/library-api/src/test/resources/sql" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/library-api" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="Lombok" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\diskende\Documents\GitHub\Spring-Boot\library-api" />
       <recent name="C:\Users\diskende\Documents\GitHub\Spring-Boot\library-api\src\test\resources\sql" />
     </key>
   </component>
@@ -54,7 +83,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in library-api">
+  <component name="RunManager" selected="Spring Boot.LibraryApiApplication">
     <configuration name="All in library-api" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="library-api" />
       <option name="PACKAGE_NAME" value="" />
@@ -159,7 +188,8 @@
       <workItem from="1675270397029" duration="1664000" />
       <workItem from="1675690480434" duration="1291000" />
       <workItem from="1676067432420" duration="7280000" />
-      <workItem from="1676074795678" duration="9455000" />
+      <workItem from="1676074795678" duration="9521000" />
+      <workItem from="1676149820561" duration="4591000" />
     </task>
     <task id="LOCAL-00001" summary="Updated some URIs and test cases.">
       <created>1675691069535</created>
