@@ -9,8 +9,6 @@ import javax.validation.constraints.NotNull;
 @Getter
 @Builder
 @ToString
-@NoArgsConstructor
-@AllArgsConstructor
 public class CreateBookRequest {
 
     @NotBlank(message = "request.validation.book.title.blank")

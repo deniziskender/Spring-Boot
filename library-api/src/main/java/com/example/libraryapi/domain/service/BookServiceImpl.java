@@ -21,23 +21,6 @@ public class BookServiceImpl implements BookServicePort {
 
     private final BookPersistencePort bookPersistencePort;
 
-    @Override
-    public BookResponse addBook(CreateBookRequest createBookRequest) {
-        BookDto bookDto = bookPersistencePort.addBook(createBookRequest.toModel());
-        return BookResponse.builder().book(bookDto).build();
-    }
-
-    @Override
-    public void deleteBookById(Long id) {
-        bookPersistencePort.deleteBookById(id);
-    }
-
-    @Override
-    public BookResponse updateBook(UpdateBookRequest updateBookRequest) {
-        BookDto bookDto = bookPersistencePort.updateBook(updateBookRequest.toModel());
-        return BookResponse.builder().book(bookDto).build();
-    }
-
     @Deprecated
     @Override
     public BooksResponse getBooks() {
@@ -55,5 +38,22 @@ public class BookServiceImpl implements BookServicePort {
     public BookResponse getBookById(Long bookId) {
         BookDto bookDto = bookPersistencePort.getBookById(bookId);
         return BookResponse.builder().book(bookDto).build();
+    }
+
+    @Override
+    public BookResponse addBook(CreateBookRequest createBookRequest) {
+        BookDto bookDto = bookPersistencePort.addBook(createBookRequest.toModel());
+        return BookResponse.builder().book(bookDto).build();
+    }
+
+    @Override
+    public BookResponse updateBook(Long id, UpdateBookRequest updateBookRequest) {
+        BookDto bookDto = bookPersistencePort.updateBook(id, updateBookRequest.toModel());
+        return BookResponse.builder().book(bookDto).build();
+    }
+
+    @Override
+    public void deleteBookById(Long id) {
+        bookPersistencePort.deleteBookById(id);
     }
 }

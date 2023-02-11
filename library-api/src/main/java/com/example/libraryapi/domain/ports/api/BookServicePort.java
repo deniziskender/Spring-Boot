@@ -5,23 +5,19 @@ import com.example.libraryapi.application.request.UpdateBookRequest;
 import com.example.libraryapi.application.response.BookResponse;
 import com.example.libraryapi.application.response.BooksPageResponse;
 import com.example.libraryapi.application.response.BooksResponse;
-import com.example.libraryapi.domain.data.BookDto;
-import com.example.libraryapi.domain.data.BooksDto;
 import org.springframework.data.domain.Pageable;
-
-import java.util.List;
 
 public interface BookServicePort {
 
-    BookResponse addBook(CreateBookRequest createBookRequest);
-
-    void deleteBookById(Long id);
-
-    BookResponse updateBook(UpdateBookRequest updateBookRequest);
+    BookResponse getBookById(Long bookId);
 
     BooksResponse getBooks();
 
     BooksPageResponse getBooks(Pageable pageable);
 
-    BookResponse getBookById(Long bookId);
+    BookResponse addBook(CreateBookRequest createBookRequest);
+
+    BookResponse updateBook(Long id, UpdateBookRequest updateBookRequest);
+
+    void deleteBookById(Long id);
 }

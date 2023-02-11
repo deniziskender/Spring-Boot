@@ -10,16 +10,15 @@ import java.util.List;
 
 public interface BookPersistencePort {
 
-    BookDto addBook(CreateBookVo bookVo);
-
-    void deleteBookById(Long id);
-
-    BookDto updateBook(UpdateBookVo updateBookVo);
-
     List<BookDto> getBooks();
 
     BooksDto getBooks(Pageable pageable);
 
     BookDto getBookById(Long bookId);
 
+    BookDto addBook(CreateBookVo bookVo);
+
+    BookDto updateBook(Long id, UpdateBookVo updateBookVo);
+
+    void deleteBookById(Long id);
 }

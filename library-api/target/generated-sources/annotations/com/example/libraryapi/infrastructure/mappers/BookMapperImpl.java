@@ -8,7 +8,7 @@ import javax.annotation.processing.Generated;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2023-01-30T21:13:55+0100",
+    date = "2023-02-11T01:24:20+0100",
     comments = "version: 1.5.2.Final, compiler: javac, environment: Java 11.0.3 (JetBrains s.r.o)"
 )
 public class BookMapperImpl implements BookMapper {
@@ -25,6 +25,7 @@ public class BookMapperImpl implements BookMapper {
         bookDto.title( book.getTitle() );
         bookDto.description( book.getDescription() );
         bookDto.price( book.getPrice() );
+        bookDto.status( book.getStatus() );
 
         return bookDto.build();
     }
@@ -41,6 +42,7 @@ public class BookMapperImpl implements BookMapper {
         book.setTitle( bookDto.getTitle() );
         book.setDescription( bookDto.getDescription() );
         book.setPrice( bookDto.getPrice() );
+        book.setStatus( bookDto.getStatus() );
 
         return book;
     }
@@ -54,20 +56,6 @@ public class BookMapperImpl implements BookMapper {
         List<BookDto> list = new ArrayList<BookDto>( bookList.size() );
         for ( Book book : bookList ) {
             list.add( bookToBookDto( book ) );
-        }
-
-        return list;
-    }
-
-    @Override
-    public List<Book> BookDtoListTobookList(List<BookDto> BookDtoList) {
-        if ( BookDtoList == null ) {
-            return null;
-        }
-
-        List<Book> list = new ArrayList<Book>( BookDtoList.size() );
-        for ( BookDto bookDto : BookDtoList ) {
-            list.add( bookDtoToBook( bookDto ) );
         }
 
         return list;

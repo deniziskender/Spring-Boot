@@ -1,14 +1,11 @@
 package com.example.libraryapi.domain.data;
 
-import lombok.AllArgsConstructor;
+import com.example.libraryapi.infrastructure.enumtype.Status;
 import lombok.Builder;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
 
 @Data
-@AllArgsConstructor
-@NoArgsConstructor
 @Builder
 public class BookDto {
 
@@ -19,4 +16,6 @@ public class BookDto {
     private String description;
 
     private Double price;
+
+    private Status status;
 }

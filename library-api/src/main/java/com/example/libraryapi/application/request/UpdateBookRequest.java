@@ -8,14 +8,7 @@ import javax.validation.constraints.NotNull;
 
 @Getter
 @Builder
-@ToString
-@NoArgsConstructor
-@AllArgsConstructor
 public class UpdateBookRequest {
-
-    @NotNull(message = "request.validation.book.id.null")
-    private Long id;
-
     @NotBlank(message = "request.validation.book.title.blank")
     private String title;
 
@@ -28,7 +21,6 @@ public class UpdateBookRequest {
 
     public UpdateBookVo toModel() {
         return UpdateBookVo.builder()
-                .id(this.id)
                 .title(this.title)
                 .description(this.description)
                 .price(this.price)

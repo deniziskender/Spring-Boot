@@ -21,41 +21,9 @@ import java.util.List;
 @RequiredArgsConstructor
 public class BookJpaAdapter implements BookPersistencePort {
 
+    private static final String ADAPTER_VALIDATION_BOOK_NOT_FOUND = "adapter.validation.book.not.found";
+
     private final BookRepository bookRepository;
-
-    @Override
-    public BookDto addBook(CreateBookVo createBookVo) {
-        Book book = new Book();
-        book.setTitle(createBookVo.getTitle());
-        book.setDescription(createBookVo.getDescription());
-        book.setPrice(createBookVo.getPrice());
-        book.setStatus(Status.ACTIVE);
-
-        Book savedBook = bookRepository.save(book);
-        return BookMapper.INSTANCE.bookToBookDto(savedBook);
-    }
-
-    @Override
-    public void deleteBookById(Long id) {
-        Book book = bookRepository.findByIdAndStatus(id, Status.ACTIVE)
-                .orElseThrow(() -> new BookApiBusinessException("adapter.validation.book.not.found"));
-
-        book.setStatus(Status.PASSIVE);
-        bookRepository.save(book);
-    }
-
-    @Override
-    public BookDto updateBook(UpdateBookVo updateBookVo) {
-        Book book = bookRepository.findByIdAndStatus(updateBookVo.getId(), Status.ACTIVE)
-                .orElseThrow(() -> new BookApiBusinessException("adapter.validation.book.not.found"));
-
-        book.setTitle(updateBookVo.getTitle());
-        book.setPrice(updateBookVo.getPrice());
-        book.setDescription(updateBookVo.getDescription());
-        Book savedBook = bookRepository.save(book);
-
-        return BookMapper.INSTANCE.bookToBookDto(savedBook);
-    }
 
     @Deprecated
     @Override
@@ -79,7 +47,41 @@ public class BookJpaAdapter implements BookPersistencePort {
     @Override
     public BookDto getBookById(Long bookId) {
         Book book = bookRepository.findByIdAndStatus(bookId, Status.ACTIVE)
-                .orElseThrow(() -> new BookApiBusinessException("adapter.validation.book.not.found"));
+                .orElseThrow(() -> new BookApiBusinessException(ADAPTER_VALIDATION_BOOK_NOT_FOUND));
         return BookMapper.INSTANCE.bookToBookDto(book);
+    }
+
+    @Override
+    public BookDto addBook(CreateBookVo createBookVo) {
+        Book book = new Book();
+        book.setTitle(createBookVo.getTitle());
+        book.setDescription(createBookVo.getDescription());
+        book.setPrice(createBookVo.getPrice());
+        book.setStatus(Status.ACTIVE);
+
+        Book savedBook = bookRepository.save(book);
+        return BookMapper.INSTANCE.bookToBookDto(savedBook);
+    }
+
+    @Override
+    public BookDto updateBook(Long id, UpdateBookVo updateBookVo) {
+        Book book = bookRepository.findByIdAndStatus(id, Status.ACTIVE)
+                .orElseThrow(() -> new BookApiBusinessException(ADAPTER_VALIDATION_BOOK_NOT_FOUND));
+
+        book.setTitle(updateBookVo.getTitle());
+        book.setPrice(updateBookVo.getPrice());
+        book.setDescription(updateBookVo.getDescription());
+        Book savedBook = bookRepository.save(book);
+
+        return BookMapper.INSTANCE.bookToBookDto(savedBook);
+    }
+
+    @Override
+    public void deleteBookById(Long id) {
+        Book book = bookRepository.findByIdAndStatus(id, Status.ACTIVE)
+                .orElseThrow(() -> new BookApiBusinessException(ADAPTER_VALIDATION_BOOK_NOT_FOUND));
+
+        book.setStatus(Status.PASSIVE);
+        bookRepository.save(book);
     }
 }
