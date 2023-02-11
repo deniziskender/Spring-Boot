@@ -13,12 +13,12 @@ Implemented with with
 - Maven
 - Intellij Idea for IDE
 - SonarLint plugin
+- Swagger 2.7.0
 
 TODO LIST
 - More IT and unit tests will be added.
 - Postresql/mongoDb will be integrated. 
 - Abstract Entity class will be used.
-- Swagger
 - Microservice / Eureka / Spring cloud
 - Redis/Kafka
 - WireMock for api calls
