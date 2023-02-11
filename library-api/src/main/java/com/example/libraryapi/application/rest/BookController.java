@@ -7,6 +7,7 @@ import com.example.libraryapi.application.response.BooksPageResponse;
 import com.example.libraryapi.application.response.BooksResponse;
 import com.example.libraryapi.domain.ports.api.BookServicePort;
 import lombok.RequiredArgsConstructor;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;

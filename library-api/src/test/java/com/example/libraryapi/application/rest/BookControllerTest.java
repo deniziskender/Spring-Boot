@@ -9,13 +9,17 @@ import com.example.libraryapi.base.BaseIT;
 import com.example.libraryapi.domain.data.BookDto;
 import com.example.libraryapi.infrastructure.enumtype.Status;
 import org.junit.jupiter.api.Test;
-import org.springframework.data.domain.PageRequest;
 import org.springframework.http.*;
+import org.springframework.test.context.jdbc.Sql;
+
+import java.util.Map;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
+@Sql(scripts = "/sql/insert_books.sql")
+@Sql(scripts = "/sql/delete_books.sql", executionPhase = Sql.ExecutionPhase.AFTER_TEST_METHOD)
 class BookControllerTest extends BaseIT {
 
     @Test
@@ -35,7 +39,7 @@ class BookControllerTest extends BaseIT {
 
         BookDto book = bookResponse.getBook();
         assertThat(book.getId()).isEqualTo(1L);
-        assertThat(book.getTitle()).isEqualTo("The Lord of the Rings");
+        assertThat(book.getTitle()).isEqualTo("LOTR");
         assertThat(book.getDescription()).isEqualTo("Best-seller-1");
         assertThat(book.getPrice()).isEqualTo(20.1);
         assertThat(book.getStatus()).isEqualTo(Status.ACTIVE);
@@ -56,15 +60,36 @@ class BookControllerTest extends BaseIT {
     }
 
     @Test
-    void should_get_books_by_slicing() {
+    void should_get_books_by_slicing_when_page_is_0_and_size_is_1() {
         // given
-        PageRequest pageRequest = PageRequest.of(0, 1);
-
-        HttpEntity<PageRequest> requestEntity = new HttpEntity<>(pageRequest);
+        int page = 0;
+        int size = 1;
 
         // when
-        ResponseEntity<BooksPageResponse> response = testRestTemplate.
-                exchange("/v1/books/slice/", HttpMethod.GET, requestEntity, BooksPageResponse.class);
+        ResponseEntity<BooksPageResponse> response = testRestTemplate.getForEntity("/v1/books/slice?page={page}&size={size}",
+                BooksPageResponse.class, Map.of("page", page, "size", size));
+
+        // then
+        assertThat(response.getStatusCode()).isEqualTo(HttpStatus.OK);
+        assertThat(response.getBody()).isNotNull();
+
+        BooksPageResponse booksPageResponse = response.getBody();
+        assertThat(booksPageResponse.getBooksDto()).isNotNull();
+        assertThat(booksPageResponse.getBooksDto().getBooks().size()).isEqualTo(1);
+        assertThat(booksPageResponse.getBooksDto().isHasMore()).isTrue();
+        assertThat(booksPageResponse.getBooksDto().getPageNumber()).isZero();
+        assertThat(booksPageResponse.getBooksDto().getTotalPages()).isEqualTo(2);
+    }
+
+    @Test
+    void should_get_books_by_slicing_when_page_is_0_and_size_is_3() {
+        // given
+        int page = 0;
+        int size = 3;
+
+        // when
+        ResponseEntity<BooksPageResponse> response = testRestTemplate.getForEntity("/v1/books/slice?page={page}&size={size}",
+                BooksPageResponse.class, Map.of("page", page, "size", size));
 
         // then
         assertThat(response.getStatusCode()).isEqualTo(HttpStatus.OK);
@@ -74,8 +99,30 @@ class BookControllerTest extends BaseIT {
         assertThat(booksPageResponse.getBooksDto()).isNotNull();
         assertThat(booksPageResponse.getBooksDto().getBooks().size()).isEqualTo(2);
         assertThat(booksPageResponse.getBooksDto().isHasMore()).isFalse();
-        assertThat(booksPageResponse.getBooksDto().getPage()).isZero();
-        assertThat(booksPageResponse.getBooksDto().getPageSize()).isEqualTo(1);
+        assertThat(booksPageResponse.getBooksDto().getPageNumber()).isZero();
+        assertThat(booksPageResponse.getBooksDto().getTotalPages()).isEqualTo(1);
+    }
+
+    @Test
+    void should_get_books_by_slicing_when_page_is_1_and_size_is_2() {
+        // given
+        int page = 0;
+        int size = 3;
+
+        // when
+        ResponseEntity<BooksPageResponse> response = testRestTemplate.getForEntity("/v1/books/slice?page={page}&size={size}",
+                BooksPageResponse.class, Map.of("page", page, "size", size));
+
+        // then
+        assertThat(response.getStatusCode()).isEqualTo(HttpStatus.OK);
+        assertThat(response.getBody()).isNotNull();
+
+        BooksPageResponse booksPageResponse = response.getBody();
+        assertThat(booksPageResponse.getBooksDto()).isNotNull();
+        assertThat(booksPageResponse.getBooksDto().getBooks().size()).isEqualTo(2);
+        assertThat(booksPageResponse.getBooksDto().isHasMore()).isFalse();
+        assertThat(booksPageResponse.getBooksDto().getPageNumber()).isZero();
+        assertThat(booksPageResponse.getBooksDto().getTotalPages()).isEqualTo(1);
     }
 
     @Test

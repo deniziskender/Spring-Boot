@@ -10,6 +10,6 @@ import java.util.List;
 public class BooksDto {
     private List<BookDto> books;
     private boolean hasMore;
-    private Integer page;
-    private Integer pageSize;
+    private Integer pageNumber;
+    private Integer totalPages;
 }

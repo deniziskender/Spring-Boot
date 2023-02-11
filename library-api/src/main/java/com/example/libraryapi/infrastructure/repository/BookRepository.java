@@ -2,6 +2,8 @@ package com.example.libraryapi.infrastructure.repository;
 
 import com.example.libraryapi.infrastructure.entity.Book;
 import com.example.libraryapi.infrastructure.enumtype.Status;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
@@ -15,4 +17,5 @@ public interface BookRepository extends JpaRepository<Book, Long> {
 
     List<Book> findByStatus(Status status);
 
+    Page<Book> findByStatus(Status status, Pageable pageable);
 }

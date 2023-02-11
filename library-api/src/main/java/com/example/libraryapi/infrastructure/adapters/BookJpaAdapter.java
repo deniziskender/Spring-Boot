@@ -34,13 +34,13 @@ public class BookJpaAdapter implements BookPersistencePort {
 
     @Override
     public BooksDto getBooks(Pageable pageable) {
-        Page<Book> bookPage = bookRepository.findAll(pageable);
+        Page<Book> bookPage = bookRepository.findByStatus(Status.ACTIVE, pageable);
         List<BookDto> books = BookMapper.INSTANCE.bookListToBookDtoList(bookPage.getContent());
         return BooksDto.builder()
                 .books(books)
                 .hasMore(bookPage.hasNext())
-                .page(bookPage.getNumber())
-                .pageSize(bookPage.getTotalPages())
+                .pageNumber(bookPage.getNumber())
+                .totalPages(bookPage.getTotalPages())
                 .build();
     }
 
