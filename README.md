@@ -24,5 +24,6 @@ TODO LIST
 - Microservice / Eureka / Spring cloud
 - Redis/Kafka
 - WireMock for api calls
+- ElasticSearch
 - Liquibase
 - Cucumber
