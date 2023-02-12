@@ -20,7 +20,7 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 @Sql(scripts = "/sql/insert_books.sql")
 @Sql(scripts = "/sql/delete_books.sql", executionPhase = Sql.ExecutionPhase.AFTER_TEST_METHOD)
-class BookEntityControllerTest extends BaseIT {
+class BookControllerTest extends BaseIT {
 
     @Test
     void should_get_book() {
