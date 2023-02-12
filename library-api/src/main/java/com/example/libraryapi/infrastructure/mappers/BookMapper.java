@@ -1,7 +1,7 @@
 package com.example.libraryapi.infrastructure.mappers;
 
 import com.example.libraryapi.domain.data.BookDto;
-import com.example.libraryapi.infrastructure.entity.Book;
+import com.example.libraryapi.infrastructure.entity.BookEntity;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
 
@@ -12,9 +12,9 @@ public interface BookMapper {
 
     BookMapper INSTANCE = Mappers.getMapper(BookMapper.class);
 
-    BookDto bookToBookDto(Book book);
+    BookDto bookToBookDto(BookEntity bookEntity);
 
-    Book bookDtoToBook(BookDto bookDto);
+    BookEntity bookDtoToBook(BookDto bookDto);
 
-    List<BookDto> bookListToBookDtoList(List<Book> bookList);
+    List<BookDto> bookListToBookDtoList(List<BookEntity> bookEntityList);
 }

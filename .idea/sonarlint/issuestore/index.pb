@@ -11,8 +11,6 @@ T
 $todo-api/src/test/resources/data.sql,5\5\5538466ff66e6823cc5403efe82986e6462676b2
 T
 $todo-api/src/test/resources/todo.txt,b\6\b614a702d0338cfb09bb011b132700c16e1f51b6
-c
-3library-api/src/test/resources/sql/insert_books.sql,0\f\0f793682d7ce27bc7a56388e6355fa2e67b3c7a2
 x
 Hlibrary-api/target/surefire-reports/2023-01-30T17-30-09_531-jvmRun1.dump,a\8\a89c89cf6a2800bd24163c7ff2f5c0cdd8226927
 v
@@ -83,8 +81,6 @@ C
 Ylibrary-api/target/surefire-reports/com.example.libraryapi.LibraryApiApplicationTests.txt,e\8\e89fd4e72de3838545ad1bd8a9ce1bcc7d3967df
 {
 Klibrary-api/src/main/java/com/example/libraryapi/LibraryApiApplication.java,1\2\127b843bc2852e47f3db084a1ac2df0cfc3dd97e
-¢
-rlibrary-api/target/generated-sources/annotations/com/example/libraryapi/infrastructure/mappers/BookMapperImpl.java,4\8\48bec56751935364dc5af1407f9bc113e79dee07
 y
 Ilibrary-api/src/main/java/com/example/libraryapi/domain/data/BookDto.java,f\2\f2bef7dedb66c85d6f52e638949cadd4306aed1a
 z
@@ -131,12 +127,8 @@ b
 llibrary-api/src/main/java/com/example/libraryapi/infrastructure/configuration/LocalizationConfiguration.java,9\7\97b6fa7e9e2c8cbbd6a03e0d4ab97b819adfc612
 e
 5library-api/src/main/resources/messages_tr.properties,5\c\5c0b929a15e76bbbb14d1a69a48073c6f7460006
-Y
-)library-api/src/main/resources/schema.sql,8\3\83e6b52b11c30283b492c46f3f1d55afa4354030
 ‘
 alibrary-api/target/surefire-reports/com.example.libraryapi.domain.service.BookServiceImplTest.txt,5\1\5173a46fb6fdc60c8b3e752382f073a271ebac6b
-e
-5library-api/src/main/resources/application.properties,7\7\7735f265ee8f0deb08f02106d07fc0340fbf4eeb
 ’
 blibrary-api/target/surefire-reports/com.example.libraryapi.application.rest.BookControllerTest.txt,1\6\1680c73f274a12c0663ad3e45e1db31daaf0a7bd
 x
@@ -155,10 +147,6 @@ s
 Clibrary-api/src/test/java/com/example/libraryapi/base/BaseTest.java,5\6\56ab1164111ab413787ccd7645e3901ac23cfbe8
 ˆ
 Xlibrary-api/src/test/java/com/example/libraryapi/domain/service/BookServiceImplTest.java,e\e\eea279d38353b43379cad8d05c338039516bb0a1
-Y
-)library-api/src/test/resources/schema.sql,8\b\8bc0a5bef1a2a9c3f0a1ff682a80c01d62f44aaa
-e
-5library-api/src/test/resources/data_init_not_used.sql,9\a\9af82720873b8f08d64ec5d3abf9920d279874cf
 =
 todo-api/mvnw,f\0\f07cf5033be74f1ad308b1cbe19ddbe3da297f7d
 C
@@ -265,3 +253,7 @@ Ylibrary-api/src/test/java/com/example/libraryapi/application/rest/BookControlle
 Ulibrary-api/src/main/java/com/example/libraryapi/application/rest/BookController.java,e\6\e6c9284e43578db0e51493d1736d69cf23327977
 †
 Vtodo-api/src/main/java/com/example/todoapi/infrastructure/adapters/TodoJpaAdapter.java,5\4\54c35e509678000f7277745eaa8aebf1877978cf
+—
+glibrary-api/src/main/java/com/example/libraryapi/infrastructure/configuration/SwaggerConfiguration.java,f\4\f4af9226af8ec29229b5a36c17d6a64e9feeadaa
+K
+library-api/library-api.iml,5\1\51ea04d013f11c87feb4156af72e4e440bee5e67

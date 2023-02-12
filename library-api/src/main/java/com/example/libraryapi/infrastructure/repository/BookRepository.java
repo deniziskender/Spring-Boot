@@ -1,6 +1,6 @@
 package com.example.libraryapi.infrastructure.repository;
 
-import com.example.libraryapi.infrastructure.entity.Book;
+import com.example.libraryapi.infrastructure.entity.BookEntity;
 import com.example.libraryapi.infrastructure.enumtype.Status;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -11,11 +11,11 @@ import java.util.List;
 import java.util.Optional;
 
 @Repository
-public interface BookRepository extends JpaRepository<Book, Long> {
+public interface BookRepository extends JpaRepository<BookEntity, Long> {
 
-    Optional<Book> findByIdAndStatus(Long id, Status status);
+    Optional<BookEntity> findByIdAndStatus(Long id, Status status);
 
-    List<Book> findByStatus(Status status);
+    List<BookEntity> findByStatus(Status status);
 
-    Page<Book> findByStatus(Status status, Pageable pageable);
+    Page<BookEntity> findByStatus(Status status, Pageable pageable);
 }

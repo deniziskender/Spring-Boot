@@ -13,12 +13,7 @@ import javax.persistence.*;
 @Getter
 @Setter
 @NoArgsConstructor
-public class Book {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-
+public class BookEntity extends AbstractEntity {
     @Column(name = "title", nullable = false, length = 100)
     private String title;
     @Column(name = "description", nullable = false)

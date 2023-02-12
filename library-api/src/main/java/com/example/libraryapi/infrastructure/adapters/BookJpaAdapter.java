@@ -5,7 +5,7 @@ import com.example.libraryapi.domain.data.BooksDto;
 import com.example.libraryapi.domain.data.CreateBookVo;
 import com.example.libraryapi.domain.data.UpdateBookVo;
 import com.example.libraryapi.domain.ports.spi.BookPersistencePort;
-import com.example.libraryapi.infrastructure.entity.Book;
+import com.example.libraryapi.infrastructure.entity.BookEntity;
 import com.example.libraryapi.infrastructure.enumtype.Status;
 import com.example.libraryapi.infrastructure.exception.BookApiBusinessException;
 import com.example.libraryapi.infrastructure.mappers.BookMapper;
@@ -28,13 +28,13 @@ public class BookJpaAdapter implements BookPersistencePort {
     @Deprecated
     @Override
     public List<BookDto> getBooks() {
-        List<Book> bookList = bookRepository.findByStatus(Status.ACTIVE);
-        return BookMapper.INSTANCE.bookListToBookDtoList(bookList);
+        List<BookEntity> bookEntityList = bookRepository.findByStatus(Status.ACTIVE);
+        return BookMapper.INSTANCE.bookListToBookDtoList(bookEntityList);
     }
 
     @Override
     public BooksDto getBooks(Pageable pageable) {
-        Page<Book> bookPage = bookRepository.findByStatus(Status.ACTIVE, pageable);
+        Page<BookEntity> bookPage = bookRepository.findByStatus(Status.ACTIVE, pageable);
         List<BookDto> books = BookMapper.INSTANCE.bookListToBookDtoList(bookPage.getContent());
         return BooksDto.builder()
                 .books(books)
@@ -46,42 +46,42 @@ public class BookJpaAdapter implements BookPersistencePort {
 
     @Override
     public BookDto getBookById(Long bookId) {
-        Book book = bookRepository.findByIdAndStatus(bookId, Status.ACTIVE)
+        BookEntity bookEntity = bookRepository.findByIdAndStatus(bookId, Status.ACTIVE)
                 .orElseThrow(() -> new BookApiBusinessException(ADAPTER_VALIDATION_BOOK_NOT_FOUND));
-        return BookMapper.INSTANCE.bookToBookDto(book);
+        return BookMapper.INSTANCE.bookToBookDto(bookEntity);
     }
 
     @Override
     public BookDto addBook(CreateBookVo createBookVo) {
-        Book book = new Book();
-        book.setTitle(createBookVo.getTitle());
-        book.setDescription(createBookVo.getDescription());
-        book.setPrice(createBookVo.getPrice());
-        book.setStatus(Status.ACTIVE);
+        BookEntity bookEntity = new BookEntity();
+        bookEntity.setTitle(createBookVo.getTitle());
+        bookEntity.setDescription(createBookVo.getDescription());
+        bookEntity.setPrice(createBookVo.getPrice());
+        bookEntity.setStatus(Status.ACTIVE);
 
-        Book savedBook = bookRepository.save(book);
-        return BookMapper.INSTANCE.bookToBookDto(savedBook);
+        BookEntity savedBookEntity = bookRepository.save(bookEntity);
+        return BookMapper.INSTANCE.bookToBookDto(savedBookEntity);
     }
 
     @Override
     public BookDto updateBook(Long id, UpdateBookVo updateBookVo) {
-        Book book = bookRepository.findByIdAndStatus(id, Status.ACTIVE)
+        BookEntity bookEntity = bookRepository.findByIdAndStatus(id, Status.ACTIVE)
                 .orElseThrow(() -> new BookApiBusinessException(ADAPTER_VALIDATION_BOOK_NOT_FOUND));
 
-        book.setTitle(updateBookVo.getTitle());
-        book.setPrice(updateBookVo.getPrice());
-        book.setDescription(updateBookVo.getDescription());
-        Book savedBook = bookRepository.save(book);
+        bookEntity.setTitle(updateBookVo.getTitle());
+        bookEntity.setPrice(updateBookVo.getPrice());
+        bookEntity.setDescription(updateBookVo.getDescription());
+        BookEntity savedBookEntity = bookRepository.save(bookEntity);
 
-        return BookMapper.INSTANCE.bookToBookDto(savedBook);
+        return BookMapper.INSTANCE.bookToBookDto(savedBookEntity);
     }
 
     @Override
     public void deleteBookById(Long id) {
-        Book book = bookRepository.findByIdAndStatus(id, Status.ACTIVE)
+        BookEntity bookEntity = bookRepository.findByIdAndStatus(id, Status.ACTIVE)
                 .orElseThrow(() -> new BookApiBusinessException(ADAPTER_VALIDATION_BOOK_NOT_FOUND));
 
-        book.setStatus(Status.PASSIVE);
-        bookRepository.save(book);
+        bookEntity.setStatus(Status.PASSIVE);
+        bookRepository.save(bookEntity);
     }
 }

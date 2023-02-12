@@ -18,7 +18,7 @@ import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.inOrder;
 import static org.mockito.Mockito.when;
 
-class BookServiceImplTest extends BaseTest {
+class BookEntityServiceImplTest extends BaseTest {
 
     @InjectMocks
     private BookServiceImpl bookService;

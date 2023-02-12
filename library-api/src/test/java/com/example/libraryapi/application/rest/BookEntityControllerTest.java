@@ -20,7 +20,7 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 @Sql(scripts = "/sql/insert_books.sql")
 @Sql(scripts = "/sql/delete_books.sql", executionPhase = Sql.ExecutionPhase.AFTER_TEST_METHOD)
-class BookControllerTest extends BaseIT {
+class BookEntityControllerTest extends BaseIT {
 
     @Test
     void should_get_book() {
@@ -39,6 +39,7 @@ class BookControllerTest extends BaseIT {
 
         BookDto book = bookResponse.getBook();
         assertThat(book.getId()).isEqualTo(1L);
+        assertThat(book.getCreatedAt()).isNotNull();
         assertThat(book.getTitle()).isEqualTo("LOTR");
         assertThat(book.getDescription()).isEqualTo("Best-seller-1");
         assertThat(book.getPrice()).isEqualTo(20.1);
@@ -147,6 +148,8 @@ class BookControllerTest extends BaseIT {
         BookDto book = bookResponse.getBook();
 
         assertNotNull(book.getId());
+        assertThat(book.getCreatedAt()).isNotNull();
+        assertThat(book.getUpdatedAt()).isNull();
         assertThat(book.getTitle()).isEqualTo("title");
         assertThat(book.getDescription()).isEqualTo("description");
         assertThat(book.getPrice()).isEqualTo(1.1);
@@ -177,6 +180,8 @@ class BookControllerTest extends BaseIT {
         BookDto book = bookResponse.getBook();
 
         assertThat(book.getId()).isEqualTo(1);
+        assertThat(book.getCreatedAt()).isNotNull();
+        assertThat(book.getUpdatedAt()).isNotNull();
         assertThat(book.getTitle()).isEqualTo("title2");
         assertThat(book.getDescription()).isEqualTo("description2");
         assertThat(book.getPrice()).isEqualTo(20.2);
