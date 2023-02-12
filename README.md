@@ -18,7 +18,6 @@ Implemented with with
 - Swagger 2.7.0
 
 TODO LIST
-- More IT and unit tests will be added.
 - Postresql/mongoDb will be integrated. 
 - Microservice / Eureka / Spring cloud
 - Redis/Kafka
