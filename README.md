@@ -5,13 +5,13 @@ Implemented with with
 - Java 11
 - Spring Boot 2.6.9
 - Docker 20.10.17
-- DDD (Hexagonal architecture)
+- DDD (Hexagonal architecture) - Application, Domain & Infrastructure packages 
 - Rest
 - Jpa
-- Hibernate
+- Hibernate (Entity classes with Abstract Entity class)
+- Testing: Junit, Mockito
 - Lombok
 - Mapstruct
-- Testing: Junit, Mockito
 - Maven
 - Intellij Idea for IDE
 - SonarLint plugin
@@ -20,7 +20,6 @@ Implemented with with
 TODO LIST
 - More IT and unit tests will be added.
 - Postresql/mongoDb will be integrated. 
-- Abstract Entity class will be used.
 - Microservice / Eureka / Spring cloud
 - Redis/Kafka
 - WireMock for api calls
