@@ -8,6 +8,7 @@
       <list>
         <option value="$PROJECT_DIR$/library-api/pom.xml" />
         <option value="$PROJECT_DIR$/todo-api/pom.xml" />
+        <option value="$PROJECT_DIR$/me-api/pom.xml" />
       </list>
     </option>
   </component>

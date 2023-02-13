@@ -1,0 +1,17 @@
+C:\Users\diskende\Documents\GitHub\Spring-Boot\me-api\src\main\java\com\example\libraryapi\infrastructure\configuration\LocalizationConfiguration.java
+C:\Users\diskende\Documents\GitHub\Spring-Boot\me-api\src\main\java\com\example\libraryapi\infrastructure\mappers\BookMapper.java
+C:\Users\diskende\Documents\GitHub\Spring-Boot\me-api\src\main\java\com\example\libraryapi\infrastructure\enumtype\converter\StatusConverter.java
+C:\Users\diskende\Documents\GitHub\Spring-Boot\me-api\src\main\java\com\example\libraryapi\application\rest\BookController.java
+C:\Users\diskende\Documents\GitHub\Spring-Boot\me-api\src\main\java\com\example\libraryapi\infrastructure\exception\BookApiBusinessException.java
+C:\Users\diskende\Documents\GitHub\Spring-Boot\me-api\src\main\java\com\example\libraryapi\application\response\BooksResponse.java
+C:\Users\diskende\Documents\GitHub\Spring-Boot\me-api\src\main\java\com\example\libraryapi\infrastructure\entity\AbstractEntity.java
+C:\Users\diskende\Documents\GitHub\Spring-Boot\me-api\src\main\java\com\example\libraryapi\domain\service\BookServiceImpl.java
+C:\Users\diskende\Documents\GitHub\Spring-Boot\me-api\src\main\java\com\example\libraryapi\infrastructure\enumtype\Status.java
+C:\Users\diskende\Documents\GitHub\Spring-Boot\me-api\src\main\java\com\example\libraryapi\infrastructure\entity\BookEntity.java
+C:\Users\diskende\Documents\GitHub\Spring-Boot\me-api\src\main\java\com\example\libraryapi\domain\ports\spi\BookPersistencePort.java
+C:\Users\diskende\Documents\GitHub\Spring-Boot\me-api\src\main\java\com\example\libraryapi\infrastructure\adapters\BookJpaAdapter.java
+C:\Users\diskende\Documents\GitHub\Spring-Boot\me-api\src\main\java\com\example\libraryapi\infrastructure\configuration\SwaggerConfiguration.java
+C:\Users\diskende\Documents\GitHub\Spring-Boot\me-api\src\main\java\com\example\libraryapi\MeApiApplication.java
+C:\Users\diskende\Documents\GitHub\Spring-Boot\me-api\src\main\java\com\example\libraryapi\infrastructure\repository\BookRepository.java
+C:\Users\diskende\Documents\GitHub\Spring-Boot\me-api\src\main\java\com\example\libraryapi\domain\data\BookDto.java
+C:\Users\diskende\Documents\GitHub\Spring-Boot\me-api\src\main\java\com\example\libraryapi\domain\ports\api\BookServicePort.java

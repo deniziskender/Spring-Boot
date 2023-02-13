@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1f828e7a-19f9-4ada-97ef-3e3e0792a272" name="Changes" comment="1 IT and 1 Unit test added.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2BZW3grKxYuCXVGk6V6PzNUuBE8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/deniziskender/Downloads/Spring-Boot/library-api/src/test/resources&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;fcbaff6e50e3b30e2bb48944c0752142&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+      <recent name="$PROJECT_DIR$/src/test" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/example/libraryapi/infrastructure/util" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+      <recent name="$PROJECT_DIR$/src/test/resources/sql" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/example/userapi/domain" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.userapi" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.example.libraryapi.application.rest" />
+      <recent name="com.example.libraryapi.domain.service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.libraryapi.base" />
+      <recent name="com.example.libraryapi.infrastructure.configuration" />
+      <recent name="com.example.libraryapi.infrastructure.mappers" />
+      <recent name="com.example.libraryapi.application.response" />
+      <recent name="com.example.libraryapi.domain.data" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.All in library-api">
+    <configuration name="All in library-api" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="library-api" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="library-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.libraryapi.application.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.libraryapi.application.rest" />
+      <option name="MAIN_CLASS_NAME" value="com.example.libraryapi.application.rest.BookControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookControllerTest.should_add_book" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="library-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.libraryapi.application.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.libraryapi.application.rest" />
+      <option name="MAIN_CLASS_NAME" value="com.example.libraryapi.application.rest.BookControllerTest" />
+      <option name="METHOD_NAME" value="should_add_book" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookControllerTest.should_get_all_books" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="library-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.libraryapi.application.rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.libraryapi.application.rest" />
+      <option name="MAIN_CLASS_NAME" value="com.example.libraryapi.application.rest.BookControllerTest" />
+      <option name="METHOD_NAME" value="should_get_all_books" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookServiceImplTest.should_add_book" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="library-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.libraryapi.domain.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.libraryapi.domain.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.libraryapi.domain.service.BookServiceImplTest" />
+      <option name="METHOD_NAME" value="should_add_book" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in library-api" />
+        <item itemvalue="JUnit.BookControllerTest.should_get_all_books" />
+        <item itemvalue="JUnit.BookControllerTest" />
+        <item itemvalue="JUnit.BookControllerTest.should_add_book" />
+        <item itemvalue="JUnit.BookServiceImplTest.should_add_book" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1f828e7a-19f9-4ada-97ef-3e3e0792a272" name="Changes" comment="" />
+      <created>1657113890511</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657113890511</updated>
+      <workItem from="1657113891778" duration="18099000" />
+      <workItem from="1657203130290" duration="45000" />
+      <workItem from="1657203177757" duration="8000" />
+      <workItem from="1657203222392" duration="28000" />
+      <workItem from="1657203261442" duration="180000" />
+      <workItem from="1657203445641" duration="17320000" />
+      <workItem from="1657368978982" duration="86000" />
+      <workItem from="1657369103220" duration="713000" />
+      <workItem from="1657369821627" duration="725000" />
+      <workItem from="1657390635100" duration="4945000" />
+      <workItem from="1657405242600" duration="806000" />
+      <workItem from="1657406066920" duration="22411000" />
+      <workItem from="1658356493355" duration="206000" />
+      <workItem from="1658603464712" duration="1372000" />
+    </task>
+    <task id="LOCAL-00001" summary="Library api v1">
+      <created>1657279086125</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657279086125</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Library api v1 dockerization">
+      <created>1657394819251</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1657394819251</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Readme updated with containerization.">
+      <created>1657395513422</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1657395513422</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Books retrieved page by page.">
+      <created>1657406878044</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1657406878044</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Validation and adapter messages read from files.">
+      <created>1657464990180</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1657464990180</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Validation and adapter messages read from files.">
+      <created>1657465068547</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1657465068547</updated>
+    </task>
+    <task id="LOCAL-00007" summary="1 IT and 1 Unit test added.">
+      <created>1657573542821</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1657573542821</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Library api v1" />
+    <MESSAGE value="Library api v1 dockerization" />
+    <MESSAGE value="Readme updated with containerization." />
+    <MESSAGE value="Books retrieved page by page." />
+    <MESSAGE value="Validation and adapter messages read from files." />
+    <MESSAGE value="1 IT and 1 Unit test added." />
+    <option name="LAST_COMMIT_MESSAGE" value="1 IT and 1 Unit test added." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/target/generated-sources/annotations/com/example/libraryapi/infrastructure/mappers/BookMapperImpl.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

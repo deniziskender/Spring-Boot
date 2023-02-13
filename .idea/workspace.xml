@@ -2,49 +2,232 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b1093d8-45ce-40a5-b2db-fa592f0ea657" name="Default Changelist" comment="Updated some URIs and test cases.">
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/1/51ea04d013f11c87feb4156af72e4e440bee5e67" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/4/f4af9226af8ec29229b5a36c17d6a64e9feeadaa" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/infrastructure/entity/AbstractEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/f/0f793682d7ce27bc7a56388e6355fa2e67b3c7a2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/8/48bec56751935364dc5af1407f9bc113e79dee07" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/7/7735f265ee8f0deb08f02106d07fc0340fbf4eeb" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_10_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_10_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_3_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_spring_3_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_68.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_68.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_3_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_3_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_3_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_3_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_3_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/0/10f4964079ebbe3e1f824a786755bd1918f988ca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/8/1880b932d842a0879a73d7fef16c788d3cd57f7b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/e/2e688ba7f1ff50f1820949f96e6d722227a88cf0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/2/426ce95820b72b8b9afd842d63e118d83d443084" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/7/47c7a415fac6d415941f8e85ddaa436c45f221b2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/b/4ba508879474a748b2b11f5436a845543d206464" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/f/4f9af9b94a3d54e9ca9163ae7fd176175f14c5f5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/c/5c028a3d92ecc3bf28ab59d8410f5d197eb1c9d2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/2/62759313f13dfea6cf094e7e0d4a47b20b64b48b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/6/6697467334e190da9b7fad480de92819894afff3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/6/76533060ff44e0ab145343fda6911f60f656638f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/a/9ac6da216c6bdc01f1084186d4be95ec73618dd3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/c/9cf787ef851c03544685f319dbf7be150a89490b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/0/b05ee96b17f269f8b32a204a7ceec7d5cff50f22" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/f/bf8e319616ca0c587bf6449d7100079a43d096db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/3/c3dae3a010fda44197e83da4d2b1f3ca4a16c62d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/5/d5e8608fef7c9d69859d3f1de2321416e58ecd70" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/1/e14408eff629b93f061257c072a5a5d93b055817" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/2/e2ad92dde863cbbd8846dd3ea52aaa669213d9b9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/f/ef12e4c6e294d2b3f530ddb739ddb6772a67e981" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/7/f764951268becf640f928ceafaef9dd91911cea5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/d/fd793a77f4be1eac03ee926c85196439a0e4ee76" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-api/target/generated-sources/annotations/com/example/me/infrastructure/mappers/BookMapperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_13_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_13_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_13_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_13_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_13_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_13_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__com_h2database_h2_1_4_200.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__com_zaxxer_HikariCP_4_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_2_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_1_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_11_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_11_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__net_minidev_accessors_smart_2_4_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__net_minidev_json_smart_2_4_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_17_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_17_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_64.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_64.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_64.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__org_assertj_assertj_core_3_21_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__org_hibernate_hibernate_core_5_6_9_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_2_3_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__org_jboss_jandex_2_4_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_3_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__org_mapstruct_mapstruct_1_5_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__org_mockito_mockito_core_4_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_4_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__org_objenesis_objenesis_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__org_ow2_asm_asm_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__org_projectlombok_lombok_1_18_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_36.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_36.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_6_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_6_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_6_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_6_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_6_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_6_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_6_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_6_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_6_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_6_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_6_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_6_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_6_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_6_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_6_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_6_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_6_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__org_springframework_spring_aop_5_3_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__org_springframework_spring_aspects_5_3_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__org_springframework_spring_beans_5_3_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__org_springframework_spring_context_5_3_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__org_springframework_spring_core_5_3_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__org_springframework_spring_expression_5_3_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__org_springframework_spring_jdbc_5_3_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__org_springframework_spring_orm_5_3_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__org_springframework_spring_test_5_3_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__org_springframework_spring_tx_5_3_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__org_springframework_spring_web_5_3_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_8_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/libraries/Maven__org_yaml_snakeyaml_1_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/default.profraw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/me-api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/src/main/java/com/example/meapi/MeApiApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/src/main/java/com/example/meapi/application/adapter/api/book/BookApiClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/src/main/java/com/example/meapi/application/adapter/api/book/RestBookApiClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/src/main/java/com/example/meapi/application/adapter/api/book/response/BooksResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/src/main/java/com/example/meapi/application/adapter/api/book/response/dto/BookDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/src/main/java/com/example/meapi/application/rest/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/src/main/java/com/example/meapi/application/rest/response/MeResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/src/main/java/com/example/meapi/domain/data/MeDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/src/main/java/com/example/meapi/domain/ports/api/BookServicePort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/src/main/java/com/example/meapi/domain/service/BookApiServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/src/main/java/com/example/meapi/domain/service/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/src/main/java/com/example/meapi/infrastructure/configuration/LocalizationConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/src/main/java/com/example/meapi/infrastructure/configuration/SwaggerConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/src/test/java/com/example/me/UserApiApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/src/test/java/com/example/me/application/rest/BookControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/src/test/java/com/example/me/base/BaseIT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/src/test/java/com/example/me/base/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/src/test/resources/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/src/test/resources/sql/delete_books.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/src/test/resources/sql/insert_books.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/target/classes/messages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/target/classes/messages_tr.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/target/classes/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/target/generated-sources/annotations/com/example/me/infrastructure/mappers/BookMapperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/target/surefire-reports/TEST-com.example.libraryapi.LibraryApiApplicationTests.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/target/surefire-reports/TEST-com.example.libraryapi.application.rest.BookControllerTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/target/surefire-reports/com.example.libraryapi.LibraryApiApplicationTests.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/target/surefire-reports/com.example.libraryapi.application.rest.BookControllerTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/target/test-classes/data_init_not_used.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/target/test-classes/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/target/test-classes/sql/delete_books.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/me-api/target/test-classes/sql/insert_books.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Spring-Boot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Spring-Boot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/8/280608cebbbaeed0274e41afbcf011fdb94b356c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/0/3005fa1239bd809539f0fbdca9982d977c2bd487" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/2/827546e0e86fa0e3c14cab79ed4c03ef13c5afcd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/2/827546e0e86fa0e3c14cab79ed4c03ef13c5afcd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/3/83e6b52b11c30283b492c46f3f1d55afa4354030" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/b/8bc0a5bef1a2a9c3f0a1ff682a80c01d62f44aaa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/a/9af82720873b8f08d64ec5d3abf9920d279874cf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/3/b3510fe1aebdde70c8045daaff92953ec5858a48" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/3/b3510fe1aebdde70c8045daaff92953ec5858a48" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/7/b7c04ef53b12e68c37c23430c305482fd47f1e81" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/7/b7c04ef53b12e68c37c23430c305482fd47f1e81" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/6/e6c9284e43578db0e51493d1736d69cf23327977" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/6/e6c9284e43578db0e51493d1736d69cf23327977" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/e/eea279d38353b43379cad8d05c338039516bb0a1" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/LibraryApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/LibraryApiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/application/rest/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/application/rest/BookController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/domain/data/BookDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/domain/data/BookDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/domain/data/BooksDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/domain/data/BooksDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/domain/data/CreateBookVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/domain/data/CreateBookVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/domain/data/UpdateBookVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/domain/data/UpdateBookVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/domain/ports/api/BookServicePort.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/domain/ports/api/BookServicePort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/domain/ports/spi/BookPersistencePort.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/domain/ports/spi/BookPersistencePort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/domain/service/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/domain/service/BookServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/infrastructure/adapters/BookJpaAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/infrastructure/adapters/BookJpaAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/infrastructure/entity/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/infrastructure/entity/BookEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/infrastructure/configuration/LocalizationConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/infrastructure/configuration/LocalizationConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/infrastructure/configuration/SwaggerConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/infrastructure/configuration/SwaggerConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/infrastructure/entity/AbstractEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/infrastructure/entity/AbstractEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/infrastructure/entity/BookEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/infrastructure/entity/BookEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/infrastructure/enumtype/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/infrastructure/enumtype/Status.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/infrastructure/enumtype/converter/StatusConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/infrastructure/enumtype/converter/StatusConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/infrastructure/exception/BookApiBusinessException.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/infrastructure/exception/BookApiBusinessException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/infrastructure/mappers/BookMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/infrastructure/mappers/BookMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/infrastructure/repository/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/infrastructure/repository/BookRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/src/main/resources/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/src/main/resources/messages.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/src/main/resources/messages_tr.properties" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/src/main/resources/messages_tr.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/src/main/resources/schema.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/src/test/java/com/example/libraryapi/application/rest/BookControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/src/test/java/com/example/libraryapi/application/rest/BookEntityControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/src/test/java/com/example/libraryapi/domain/service/BookServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/src/test/java/com/example/libraryapi/domain/service/BookEntityServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/src/test/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/src/test/resources/schema.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/src/test/resources/sql/insert_books.sql" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/src/test/resources/sql/insert_books.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/target/classes/com/example/libraryapi/domain/data/BookDto$BookDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/target/classes/com/example/libraryapi/domain/data/BookDto$BookDtoBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/target/classes/com/example/libraryapi/domain/data/BookDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/target/classes/com/example/libraryapi/domain/data/BookDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/target/classes/com/example/libraryapi/infrastructure/adapters/BookJpaAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/target/classes/com/example/libraryapi/infrastructure/adapters/BookJpaAdapter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/target/classes/com/example/libraryapi/infrastructure/entity/Book.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/target/classes/com/example/libraryapi/infrastructure/mappers/BookMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/target/classes/com/example/libraryapi/infrastructure/mappers/BookMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/target/classes/com/example/libraryapi/infrastructure/mappers/BookMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/target/classes/com/example/libraryapi/infrastructure/mappers/BookMapperImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/target/classes/com/example/libraryapi/infrastructure/repository/BookRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/target/classes/com/example/libraryapi/infrastructure/repository/BookRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/target/classes/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/target/classes/messages.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/target/classes/messages_tr.properties" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/target/classes/messages_tr.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/target/classes/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/target/classes/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-api/target/classes/com/example/libraryapi/infrastructure/configuration/SwaggerConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/target/classes/com/example/libraryapi/infrastructure/configuration/SwaggerConfiguration.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/library-api/target/generated-sources/annotations/com/example/libraryapi/infrastructure/mappers/BookMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/target/generated-sources/annotations/com/example/libraryapi/infrastructure/mappers/BookMapperImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/target/test-classes/com/example/libraryapi/application/rest/BookControllerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/target/test-classes/com/example/libraryapi/domain/service/BookServiceImplTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/target/test-classes/data_init_not_used.sql" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/target/test-classes/data_init_not_used.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/target/test-classes/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/target/test-classes/schema.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library-api/target/test-classes/sql/insert_books.sql" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/target/test-classes/sql/insert_books.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-api/target/library-api.jar" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/target/library-api.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-api/target/library-api.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/target/library-api.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-api/target/surefire-reports/TEST-com.example.libraryapi.LibraryApiApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/target/surefire-reports/TEST-com.example.libraryapi.LibraryApiApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-api/target/surefire-reports/TEST-com.example.libraryapi.application.rest.BookControllerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/target/surefire-reports/TEST-com.example.libraryapi.application.rest.BookControllerTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-api/target/surefire-reports/com.example.libraryapi.LibraryApiApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/target/surefire-reports/com.example.libraryapi.LibraryApiApplicationTests.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library-api/target/surefire-reports/com.example.libraryapi.application.rest.BookControllerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/library-api/target/surefire-reports/com.example.libraryapi.application.rest.BookControllerTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-api/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/todo-api/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-api/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/todo-api/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +239,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -84,15 +268,30 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/library-api" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/me-api/src/main/java/com/example/libraryapi/application/adapter/book/api/enumtype" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Lombok" />
+    <property name="project.structure.side.proportion" value="0.37011495" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+    <property name="show.run.dashboard.notification" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.libraryapi.application.rest" />
+      <recent name="com.example.libraryapi.domain.service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.libraryapi.domain.data" />
+      <recent name="com.example.libraryapi.domain.service" />
+      <recent name="com.example.libraryapi.application.adapter.api.book.enumtype" />
+      <recent name="com.example.libraryapi.application.adapter.api.book.response.dto" />
+      <recent name="com.example.libraryapi.domain.ports.api" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\diskende\Documents\GitHub\Spring-Boot\me-api\src\main\java\com\example\libraryapi\application\adapter\book\api\enumtype" />
+      <recent name="C:\Users\diskende\Documents\GitHub\Spring-Boot\me-api\src\main\java\com\example\libraryapi\application\adapter\book\api" />
+      <recent name="C:\Users\diskende\Documents\GitHub\Spring-Boot" />
       <recent name="C:\Users\diskende\Documents\GitHub\Spring-Boot\library-api" />
       <recent name="C:\Users\diskende\Documents\GitHub\Spring-Boot\library-api\src\test\resources\sql" />
     </key>
@@ -109,9 +308,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in library-api">
+  <component name="RunManager" selected="Spring Boot.LibraryApiApplication (1)">
     <configuration name="All in library-api" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="library-api" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in me-api" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="me-api" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
       <method v="2">
@@ -126,56 +333,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookEntityControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LibraryApiApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="library-api" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.libraryapi.application.rest.*" />
+          <option name="PATTERN" value="com.example.libraryapi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.libraryapi.application.rest" />
-      <option name="MAIN_CLASS_NAME" value="com.example.libraryapi.application.rest.BookEntityControllerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BookEntityControllerTest.should_get_book" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="library-api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.libraryapi.application.rest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.libraryapi.application.rest" />
-      <option name="MAIN_CLASS_NAME" value="com.example.libraryapi.application.rest.BookEntityControllerTest" />
-      <option name="METHOD_NAME" value="should_get_book" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BookEntityControllerTest.should_get_books_by_slicing_when_page_is_0_and_size_is_3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="library-api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.libraryapi.application.rest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.libraryapi.application.rest" />
-      <option name="MAIN_CLASS_NAME" value="com.example.libraryapi.application.rest.BookEntityControllerTest" />
-      <option name="METHOD_NAME" value="should_get_books_by_slicing_when_page_is_0_and_size_is_3" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.libraryapi.LibraryApiApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="LibraryApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="library-api" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.libraryapi.LibraryApiApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.me.LibraryApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MeApiApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="me-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.meapi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.meapi.MeApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MeApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="me-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.me.MeApiApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -187,13 +380,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.All in me-api" />
+      <item itemvalue="JUnit.All in library-api" />
+      <item itemvalue="JUnit.All in todo-api" />
+      <item itemvalue="Spring Boot.MeApiApplication (1)" />
+      <item itemvalue="Spring Boot.LibraryApiApplication" />
+      <item itemvalue="Spring Boot.MeApiApplication" />
+      <item itemvalue="Spring Boot.TodoApiApplication" />
+      <item itemvalue="Spring Boot.LibraryApiApplication (1)" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.LibraryApiApplication (1)" />
         <item itemvalue="JUnit.All in library-api" />
-        <item itemvalue="JUnit.BookEntityControllerTest" />
+        <item itemvalue="JUnit.All in me-api" />
         <item itemvalue="JUnit.All in todo-api" />
-        <item itemvalue="JUnit.BookEntityControllerTest.should_get_book" />
-        <item itemvalue="JUnit.BookEntityControllerTest.should_get_books_by_slicing_when_page_is_0_and_size_is_3" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +418,9 @@
       <workItem from="1676067432420" duration="7280000" />
       <workItem from="1676074795678" duration="9521000" />
       <workItem from="1676149820561" duration="5522000" />
-      <workItem from="1676232819131" duration="1764000" />
+      <workItem from="1676232819131" duration="4992000" />
+      <workItem from="1676239511724" duration="721000" />
+      <workItem from="1676319906029" duration="10380000" />
     </task>
     <task id="LOCAL-00001" summary="Updated some URIs and test cases.">
       <created>1675691069535</created>
@@ -261,7 +465,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Updated some URIs and test cases." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated some URIs and test cases." />
+    <MESSAGE value="Renamed book controller tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Renamed book controller tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -272,7 +477,7 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/library-api/src/test/java/com/example/libraryapi/application/rest/BookEntityControllerTest.java</url>
+          <url>file://$PROJECT_DIR$/library-api/src/test/java/com/example/me/application/rest/BookControllerTest.java</url>
           <line>77</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
@@ -285,6 +490,21 @@
           <url>file://$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/infrastructure/adapters/BookJpaAdapter.java</url>
           <line>38</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/library-api/src/main/java/com/example/libraryapi/application/rest/BookController.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/me-api/src/main/java/com/example/meapi/domain/service/BookApiServiceImpl.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/me-api/src/main/java/com/example/meapi/application/rest/BookController.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

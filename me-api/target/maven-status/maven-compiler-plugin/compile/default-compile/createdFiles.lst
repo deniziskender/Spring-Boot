@@ -1,0 +1,17 @@
+com\example\meapi\application\adapter\api\book\response\dto\BookDto$BookDtoBuilder.class
+com\example\meapi\application\adapter\api\book\response\dto\BookDto.class
+com\example\meapi\application\rest\response\MeResponse.class
+com\example\meapi\application\adapter\api\book\response\BooksResponse$BooksResponseBuilder.class
+com\example\meapi\domain\service\BookApiServiceImpl.class
+com\example\meapi\domain\service\BookServiceImpl.class
+com\example\meapi\application\adapter\api\book\BookApiClient.class
+com\example\meapi\application\rest\response\MeResponse$MeResponseBuilder.class
+com\example\meapi\domain\data\MeDto$MeDtoBuilder.class
+com\example\meapi\application\adapter\api\book\RestBookApiClient.class
+com\example\meapi\application\adapter\api\book\response\BooksResponse.class
+com\example\meapi\application\rest\BookController.class
+com\example\meapi\domain\ports\api\BookServicePort.class
+com\example\meapi\MeApiApplication.class
+com\example\meapi\infrastructure\configuration\SwaggerConfiguration.class
+com\example\meapi\domain\data\MeDto.class
+com\example\meapi\infrastructure\configuration\LocalizationConfiguration.class

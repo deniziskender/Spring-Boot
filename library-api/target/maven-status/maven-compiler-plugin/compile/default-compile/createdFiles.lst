@@ -6,7 +6,6 @@ com\example\libraryapi\application\response\BooksResponse$BooksResponseBuilder.c
 com\example\libraryapi\domain\data\UpdateBookVo.class
 com\example\libraryapi\domain\ports\spi\BookPersistencePort.class
 com\example\libraryapi\infrastructure\enumtype\converter\StatusConverter.class
-com\example\libraryapi\infrastructure\entity\Book.class
 com\example\libraryapi\infrastructure\enumtype\Status.class
 com\example\libraryapi\application\response\BookResponse.class
 com\example\libraryapi\application\request\CreateBookRequest$CreateBookRequestBuilder.class
