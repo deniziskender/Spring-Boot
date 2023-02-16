@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequiredArgsConstructor
-public class BookController {
+public class MeController {
 
     private final BookServicePort bookServicePort;
 

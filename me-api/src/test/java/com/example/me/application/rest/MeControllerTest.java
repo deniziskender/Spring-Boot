@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @Sql(scripts = "/sql/insert_books.sql")
 @Sql(scripts = "/sql/delete_books.sql", executionPhase = Sql.ExecutionPhase.AFTER_TEST_METHOD)
-class BookControllerTest extends BaseIT {
+class MeControllerTest extends BaseIT {
 
     @Test
     void should_get_books() {

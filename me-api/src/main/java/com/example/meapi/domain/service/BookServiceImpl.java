@@ -28,9 +28,11 @@ public class BookServiceImpl implements BookServicePort {
     private List<MeDto> retrieve(List<BookDto> books) {
         List<MeDto> meDtos = new ArrayList<>();
         for (BookDto book : books) {
-            meDtos.add(MeDto.builder()
+            MeDto meDto = MeDto.builder()
                     .id(book.getId())
-                    .build());
+                    .title(book.getTitle())
+                    .build();
+            meDtos.add(meDto);
         }
         return meDtos;
     }

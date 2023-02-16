@@ -21,7 +21,6 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="library-api" target="11" />
-      <module name="library-api (1)" target="11" />
       <module name="me-api" target="11" />
       <module name="todo-api" target="11" />
     </bytecodeTargetLevel>

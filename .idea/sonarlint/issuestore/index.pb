@@ -267,8 +267,6 @@ A
 me-api/Dockerfile,f\7\f764951268becf640f928ceafaef9dd91911cea5
 A
 me-api/me-api.iml,4\7\47c7a415fac6d415941f8e85ddaa436c45f221b2
-|
-Lme-api/src/test/java/com/example/me/application/rest/BookControllerTest.java,6\1\616c8c54b77e0ff6e05ca31bd9da6be50c1e6515
 ç
 ]me-api/src/main/java/com/example/meapi/application/adapter/api/book/response/dto/BookDto.java,c\b\cb128c54f35e10554140fff810a89251c77ba502
 m
@@ -283,8 +281,6 @@ Jme-api/src/main/java/com/example/meapi/domain/service/BookServiceImpl.java,6\7
 Mme-api/src/main/java/com/example/meapi/domain/service/BookApiServiceImpl.java,c\e\cef19de027233634760873fd3d4468110332668e
 Ü
 Vme-api/src/main/java/com/example/meapi/application/adapter/api/book/BookApiClient.java,3\8\384bfa4182c97c318db13363488c2d974610fe72
-{
-Kme-api/src/main/java/com/example/meapi/application/rest/BookController.java,c\e\ceabe98ed4352f3987f701aa114ec912f4cd8430
 l
 <me-api/src/main/java/com/example/meapi/MeApiApplication.java,a\0\a054f4874c42c021f8fb529ff0db57ed3d3a285a
 ç
@@ -293,3 +289,7 @@ l
 Zme-api/src/main/java/com/example/meapi/application/adapter/api/book/RestBookApiClient.java,5\d\5d097ab72ed9d3b2cc2ed31c3455131e7b351ed1
 è
 _me-api/src/main/java/com/example/meapi/application/adapter/api/book/response/BooksResponse.java,d\b\db57abef537c57d53708790b4c709ecb8bb061e9
+y
+Ime-api/src/main/java/com/example/meapi/application/rest/MeController.java,4\5\4520f44a534efcd1d3056862652dc23b06c023b0
+?
+me-api/mvnw.cmd,0\1\01930d4b762095405aec8ce6c50576b3d3cad86a
