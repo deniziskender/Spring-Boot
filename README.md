@@ -27,3 +27,5 @@ TODO LIST
 - Liquibase
 - Cucumber
 - JMeter
+- CI/CD
+- Cloud 
