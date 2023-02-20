@@ -2,7 +2,7 @@
 
 The following was discovered as part of building this project:
 
-* The original package name 'com.example.me-api' is invalid and this project uses 'com.example.me' instead.
+* The original package name 'com.example.meapi-api' is invalid and this project uses 'com.example.meapi' instead.
 
 # Getting Started
 

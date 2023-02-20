@@ -1,4 +1,4 @@
-package com.example.me.base;
+package com.example.meapi.base;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayNameGeneration;

@@ -1,4 +1,4 @@
-package com.example.me.base;
+package com.example.meapi.base;
 
 import lombok.SneakyThrows;
 import org.springframework.beans.factory.annotation.Autowired;

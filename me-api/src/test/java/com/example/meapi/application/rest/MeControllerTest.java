@@ -1,7 +1,7 @@
-package com.example.me.application.rest;
+package com.example.meapi.application.rest;
 
 import com.example.meapi.application.rest.response.MeResponse;
-import com.example.me.base.BaseIT;
+import com.example.meapi.base.BaseIT;
 import org.junit.jupiter.api.Test;
 import org.springframework.http.*;
 import org.springframework.test.context.jdbc.Sql;
