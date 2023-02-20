@@ -2,60 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b1093d8-45ce-40a5-b2db-fa592f0ea657" name="Default Changelist" comment="Updated some URIs and test cases.">
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/1/01930d4b762095405aec8ce6c50576b3d3cad86a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/5/4520f44a534efcd1d3056862652dc23b06c023b0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/1/616c8c54b77e0ff6e05ca31bd9da6be50c1e6515" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/7/b7c04ef53b12e68c37c23430c305482fd47f1e81" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/7/b7c04ef53b12e68c37c23430c305482fd47f1e81" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/e/ceabe98ed4352f3987f701aa114ec912f4cd8430" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/a/9ad6b4fb8e04c463c2bf7f04f97005b8e4f27550" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/b/ab5ee75015c7fe5466ecc289038f20d331b17ee8" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/me-api/src/main/java/com/example/meapi/application/rest/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/me-api/src/main/java/com/example/meapi/application/rest/MeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/me-api/src/main/java/com/example/meapi/domain/service/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/me-api/src/main/java/com/example/meapi/domain/service/BookServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/me-api/src/test/java/com/example/me/UserApiApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/me-api/src/test/java/com/example/me/UserApiApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/me-api/src/test/java/com/example/me/application/rest/BookControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/me-api/src/test/java/com/example/me/application/rest/MeControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/me-api/target/classes/com/example/meapi/MeApiApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/me-api/target/classes/com/example/meapi/application/adapter/api/book/BookApiClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/me-api/target/classes/com/example/meapi/application/adapter/api/book/RestBookApiClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/me-api/target/classes/com/example/meapi/application/adapter/api/book/response/BooksResponse$BooksResponseBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/me-api/target/classes/com/example/meapi/application/adapter/api/book/response/BooksResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/me-api/target/classes/com/example/meapi/application/adapter/api/book/response/dto/BookDto$BookDtoBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/me-api/target/classes/com/example/meapi/application/adapter/api/book/response/dto/BookDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/me-api/target/classes/com/example/meapi/application/rest/BookController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/me-api/target/classes/com/example/meapi/application/rest/response/MeResponse$MeResponseBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/me-api/target/classes/com/example/meapi/application/rest/response/MeResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/me-api/target/classes/com/example/meapi/domain/data/MeDto$MeDtoBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/me-api/target/classes/com/example/meapi/domain/data/MeDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/me-api/target/classes/com/example/meapi/domain/ports/api/BookServicePort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/me-api/target/classes/com/example/meapi/domain/service/BookApiServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/me-api/target/classes/com/example/meapi/domain/service/BookServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/me-api/target/classes/com/example/meapi/infrastructure/configuration/LocalizationConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/me-api/target/classes/com/example/meapi/infrastructure/configuration/SwaggerConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/me-api/target/classes/messages.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/me-api/target/classes/messages_tr.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/me-api/target/classes/schema.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/me-api/target/generated-sources/annotations/com/example/me/infrastructure/mappers/BookMapperImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/me-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/me-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/me-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/me-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/me-api/target/surefire-reports/2023-02-12T23-10-07_894-jvmRun1.dump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/me-api/target/surefire-reports/2023-02-12T23-10-07_894.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/me-api/target/surefire-reports/2023-02-14T00-23-59_738.dumpstream" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/me-api/target/surefire-reports/TEST-com.example.libraryapi.LibraryApiApplicationTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/me-api/target/surefire-reports/TEST-com.example.libraryapi.application.rest.BookControllerTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/me-api/target/surefire-reports/TEST-com.example.me.LibraryApiApplicationTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/me-api/target/surefire-reports/TEST-com.example.me.application.rest.BookControllerTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/me-api/target/surefire-reports/com.example.libraryapi.LibraryApiApplicationTests.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/me-api/target/surefire-reports/com.example.libraryapi.application.rest.BookControllerTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/me-api/target/surefire-reports/com.example.me.LibraryApiApplicationTests.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/me-api/target/surefire-reports/com.example.me.application.rest.BookControllerTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/me-api/target/test-classes/com/example/me/LibraryApiApplicationTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/me-api/target/test-classes/com/example/me/application/rest/BookControllerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/me-api/target/test-classes/com/example/me/base/BaseIT.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/me-api/target/test-classes/com/example/me/base/BaseTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/me-api/target/test-classes/data_init_not_used.sql" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -98,10 +48,10 @@
     <property name="ignore.virus.scanning.warn.message" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/me-api/src/main/java/com/example/libraryapi/application/adapter/book/api/enumtype" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.27816093" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
     <property name="show.run.dashboard.notification" value="false" />
   </component>
   <component name="RecentsManager">
@@ -136,7 +86,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.LibraryApiApplication (1)">
+  <component name="RunManager" selected="JUnit.All in me-api">
     <configuration name="All in library-api" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="library-api" />
       <option name="PACKAGE_NAME" value="" />
@@ -161,50 +111,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LibraryApiApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="library-api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.libraryapi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.libraryapi.LibraryApiApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MeApiApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="me-api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.meapi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.meapi.MeApiApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TodoApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="todo-api" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.todoapi.TodoApiApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="JUnit.All in me-api" />
       <item itemvalue="JUnit.All in library-api" />
       <item itemvalue="JUnit.All in todo-api" />
-      <item itemvalue="Spring Boot.MeApiApplication (1)" />
-      <item itemvalue="Spring Boot.TodoApiApplication" />
-      <item itemvalue="Spring Boot.LibraryApiApplication (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.LibraryApiApplication (1)" />
         <item itemvalue="JUnit.All in library-api" />
         <item itemvalue="JUnit.All in me-api" />
         <item itemvalue="JUnit.All in todo-api" />
@@ -236,7 +149,10 @@
       <workItem from="1676330881470" duration="414000" />
       <workItem from="1676549555892" duration="893000" />
       <workItem from="1676550494882" duration="991000" />
-      <workItem from="1676551511802" duration="340000" />
+      <workItem from="1676551511802" duration="783000" />
+      <workItem from="1676552328344" duration="201000" />
+      <workItem from="1676568119544" duration="354000" />
+      <workItem from="1676879860814" duration="336000" />
     </task>
     <task id="LOCAL-00001" summary="Updated some URIs and test cases.">
       <created>1675691069535</created>

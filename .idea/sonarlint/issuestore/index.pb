@@ -293,3 +293,7 @@ y
 Ime-api/src/main/java/com/example/meapi/application/rest/MeController.java,4\5\4520f44a534efcd1d3056862652dc23b06c023b0
 ?
 me-api/mvnw.cmd,0\1\01930d4b762095405aec8ce6c50576b3d3cad86a
+f
+6me-api/src/test/java/com/example/me/base/BaseTest.java,a\b\ab5ee75015c7fe5466ecc289038f20d331b17ee8
+p
+@me-api/src/test/java/com/example/me/UserApiApplicationTests.java,9\a\9ad6b4fb8e04c463c2bf7f04f97005b8e4f27550
