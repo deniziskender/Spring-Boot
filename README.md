@@ -10,7 +10,7 @@ Implemented with with
 - Rest
 - Jpa
 - Hibernate (Entity classes with Abstract Entity class)
-- Testing: Junit, Mockito
+- Testing: Junit, Mockito, Mocking API calls
 - Lombok
 - Mapstruct
 - Maven
