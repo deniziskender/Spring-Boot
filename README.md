@@ -10,7 +10,7 @@ Implemented with with
 - Rest
 - Jpa
 - Hibernate (Entity classes with Abstract Entity class)
-- Testing: Junit, Mockito, Mocking API calls
+- Testing: Junit, Mockito, WireMock
 - Lombok
 - Mapstruct
 - Maven
@@ -22,7 +22,6 @@ TODO LIST
 - Postresql/mongoDb will be integrated. 
 - Microservice / Eureka / Spring cloud
 - Redis/Kafka
-- WireMock for api calls
 - ElasticSearch
 - Liquibase
 - Cucumber
