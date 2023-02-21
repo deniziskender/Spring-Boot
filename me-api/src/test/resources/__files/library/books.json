@@ -1,0 +1,11 @@
+{
+  "book": {
+    "id": 1,
+    "createdAt": "2023-02-21T12:45:24.8571489+01:00",
+    "updatedAt": null,
+    "title": "string",
+    "description": "string",
+    "price": 0,
+    "status": "ACTIVE"
+  }
+}
