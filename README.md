@@ -28,3 +28,6 @@ TODO LIST
 - JMeter
 - CI/CD
 - Cloud 
+- GraphQL
+- NewRelic
+- Splunk
