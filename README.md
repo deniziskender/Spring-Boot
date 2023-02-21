@@ -7,7 +7,7 @@ Implemented with with
 - Spring Boot 2.6.9
 - Docker 20.10.17
 - DDD (Hexagonal architecture) - Application, Domain & Infrastructure packages 
-- Rest
+- Rest, Feign Client
 - Jpa
 - Hibernate (Entity classes with Abstract Entity class)
 - Testing: Junit, Mockito, WireMock
