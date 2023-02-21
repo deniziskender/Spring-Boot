@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Service
 @ConditionalOnProperty(value = "mock.library.api.service.enabled", havingValue = "false", matchIfMissing = true)
 @FeignClient(name = "BOOK-SERVICE", url = "http://localhost:8081")
-public interface RestBookApiClient extends BookApiClient {
+public interface RestLibraryApiClient extends LibraryApiClient {
 
     @Override
     @GetMapping("/v1/books")

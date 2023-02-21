@@ -1,5 +1,6 @@
 package com.example.meapi.base;
 
+import com.github.tomakehurst.wiremock.WireMockServer;
 import lombok.SneakyThrows;
 import org.apache.commons.io.FileUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,6 +22,8 @@ public abstract class BaseIT {
     private RestTemplateBuilder restTemplateBuilder;
 
     protected TestRestTemplate testRestTemplate;
+
+    protected WireMockServer libraryApiWireMockServer = new WireMockServer(8081);
 
     @SneakyThrows
     @PostConstruct

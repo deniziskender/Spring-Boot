@@ -1,6 +1,6 @@
 package com.example.meapi.domain.service;
 
-import com.example.meapi.application.adapter.api.book.BookApiClient;
+import com.example.meapi.application.adapter.api.book.LibraryApiClient;
 import com.example.meapi.application.adapter.api.book.response.BooksResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 @RequiredArgsConstructor
 public class BookApiServiceImpl {
 
-    private final BookApiClient bookApiClient;
+    private final LibraryApiClient bookApiClient;
 
     public BooksResponse getBooks() {
         return bookApiClient.retrieveBooks();

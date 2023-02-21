@@ -3,14 +3,15 @@ package com.example.meapi.application.rest;
 import com.example.meapi.application.rest.response.MeResponse;
 import com.example.meapi.base.BaseIT;
 import org.junit.jupiter.api.Test;
-import org.springframework.http.*;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.test.context.TestPropertySource;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @TestPropertySource(properties = "mock.library.api.service.enabled=true")
-class MeControllerTest extends BaseIT {
+class MeControllerTest1 extends BaseIT {
 
     @Test
     void should_get_books() {
