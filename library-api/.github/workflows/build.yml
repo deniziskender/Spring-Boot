@@ -42,7 +42,7 @@ jobs:
     #Job's steps
     steps:
       #Check-out your repository under $GITHUB_WORKSPACE, so your workflow can access it
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v3
       #Set up JDK 11
       - name: Set up JDK
         uses: actions/setup-java@v1
@@ -79,7 +79,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       #Check-out your repository under $GITHUB_WORKSPACE, so your workflow can access it
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v3
       #Set up JDK 11
       - name: Set up JDK
         uses: actions/setup-java@v1
