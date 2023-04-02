@@ -10,6 +10,7 @@ Implemented with with
 - Rest, Feign Client
 - Jpa
 - Hibernate (Entity classes with Abstract Entity class)
+- Database: H2
 - Testing: Junit, Mockito, WireMock
 - Lombok
 - Mapstruct
