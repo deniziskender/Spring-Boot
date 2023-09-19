@@ -26,10 +26,10 @@ TODO LIST
 - Redis/Kafka
 - ElasticSearch
 - Liquibase
-- Cucumber
-- JMeter
+- Cucumber/JMeter/cypress
 - Cloud 
 - GraphQL
 - NewRelic
 - Splunk
 - Kubernetes
+- Grafana
