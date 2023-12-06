@@ -27,7 +27,7 @@ TODO LIST
 - ElasticSearch
 - Liquibase
 - Cucumber/JMeter/cypress
-- Cloud (AWS)
+- Cloud (AWS. Azure)
 - GraphQL
 - NewRelic
 - Splunk
